@@ -1,0 +1,11 @@
+<svg id="File" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+    <defs>
+        <style>
+            .cls-3{fill:#005450;opacity:.5}
+        </style>
+    </defs>
+    <path id="Shape" d="M0 0h30v30H0z" style="fill:none"/>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M2.339 0h10.615l7.2 6.06v16.612c0 2.245-.026 2.4-2.339 2.4H2.339C.026 25.075 0 24.917 0 22.672V2.4C0 .158.026 0 2.339 0z" transform="translate(4.925 2.462)" style="fill:#b0b7c3;opacity:.3"/>
+    <rect id="Rectangle" class="cls-3" width="11" height="2" rx="1" transform="translate(7.17 13.771)"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" class="cls-3" width="7" height="2" rx="1" transform="translate(7.14 18.853)"/>
+</svg>

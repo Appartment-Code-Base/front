@@ -1,0 +1,355 @@
+.bootstrap-select {
+  &.form-control {
+    border: 1px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+
+    .btn-light {
+      padding: 14px 20px;
+      margin: 0 !important;
+      height: auto !important;
+      width: 100% !important;
+
+      .filter-option-inner-inner {
+        color: #9da3ad;
+        font-size: 15px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .bootstrap-select > .dropdown-toggle, .btn-light {
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    outline: none !important;
+    box-shadow: none;
+    border: none !important;
+
+    .filter-option-inner-inner {
+      @include toRem(font-size, 15);
+      font-weight: 600;
+      color: #1e2839;
+      font-family: "Sarabun", sans-serif;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    &:focus {
+      outline: none !important;
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    &:after {
+      content: "\f107";
+      font-family: 'Font Awesome 5 Free', sans-serif;
+      font-weight: 900;
+      margin-top: 1px;
+      color: #b0b7c3;
+      border: none;
+    }
+  }
+}
+
+.btn-light:not(:disabled):not(.disabled):active:focus {
+  outline: none !important;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+}
+
+.form-control {
+  color: $gray-text;
+  height: 64px;
+  padding: 21.5px 21.5px 21.5px 54px;
+  border-radius: 10px;
+  border: solid 1px rgba(0, 86, 81, 0.2);
+  background-color: #fff;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border: solid 1px rgba(0, 86, 81, 0.2);
+  }
+}
+
+.inputText:focus + span, .inputText:not(:placeholder-shown) + span {
+  opacity: 1;
+  top: 6px;
+  font-size: 14px;
+}
+
+.inputText:not(:placeholder-shown) {
+  padding-bottom: 4px !important;
+}
+
+.form-control-label {
+  .inpt {
+    padding: 0 20px;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    color: $gray-text;
+    top: 18px;
+    display: inline-block;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+    font-size: 14px;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+}
+
+.login .navbar-brand {
+  width: 200px;
+  margin: 33px 0 0 70px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+  li {
+    a {
+      @include toRem(font-size, 16);
+      font-weight: 600;
+      color: $text-color;
+    }
+  }
+}
+
+.modal {
+  overflow-y: auto;
+
+  .modal-header {
+    @include toRem(margin-bottom, 10);
+
+    .modal-title {
+      text-transform: uppercase;
+      @include toRem(font-size, 16);
+      font-weight: 500;
+    }
+
+    &.block {
+      .close {
+        color: $green;
+        opacity: 1;
+      }
+    }
+  }
+
+  .block {
+    padding: 17px 25px !important;
+    box-shadow: none;
+
+    .form-control {
+      border-color: #f2f2f2;
+      padding: 20px;
+      height: 58px;
+      color: $text-color;
+      @include toRem(font-size, 15);
+    }
+
+    .btn-effect {
+      width: 260px;
+      border-radius: 10px;
+      @include toRem(margin-top, 25);
+
+      .fa {
+        display: inline-block;
+        margin-left: 5px;
+      }
+    }
+
+    .with-select {
+      .inpt {
+        top: 6px;
+      }
+
+      .bootstrap-select {
+        width: 100%;
+      }
+
+      .dropdown-toggle {
+        border: solid 1px #f2f2f2 !important;
+        border-radius: 10px;
+        height: 58px;
+        padding: 10px 20px;
+
+        .filter-option {
+          display: flex;
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}
+
+.modal-backdrop {
+  opacity: 1;
+  -webkit-backdrop-filter: blur(2.4px);
+  backdrop-filter: blur(2.4px);
+  background-color: rgba(176, 183, 195, 0.2);
+}
+
+.dashboard {
+  .bootstrap-select {
+    .btn-light {
+      width: 130px;
+      height: 46px;
+      border-radius: 10px;
+      background-color: #fff;
+      @include toRem(margin-bottom, 20)
+    }
+  }
+
+  .table-striped {
+    thead {
+      background-color: rgba(245, 243, 238, 0.4);
+
+      th {
+        border: none;
+        color: $gray-text;
+        text-transform: uppercase;
+        @include toRem(font-size, 12);
+        padding: 16px 20px;
+        vertical-align: middle;
+
+        &:first-child {
+          border-radius: 10px 0 0 10px;
+        }
+
+        &:last-child {
+          border-radius: 0 10px 10px 0;
+          text-align: right;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        &:first-child {
+          td {
+            padding-top: 30px;
+          }
+        }
+
+        &:nth-of-type(even) {
+          background-color: rgba(245, 243, 238, 0.4);
+        }
+
+        &:nth-of-type(odd) {
+          background-color: #fff;
+        }
+
+        td, th {
+          border: none;
+          padding: 15px 20px;
+          @include toRem(font-size, 14);
+          vertical-align: middle;
+
+          .fa-ellipsis-h {
+            color: #b0b7c3;
+          }
+
+          &:first-child {
+            border-radius: 10px 0 0 10px;
+          }
+
+          &:last-child {
+            border-radius: 0 10px 10px 0;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+
+  .pagination-text {
+    @include toRem(font-size, 14);
+  }
+
+  .pagination {
+    .page-item {
+      .page-link {
+        border: none;
+        color: #1e2839;
+        @include toRem(padding, 15);
+
+        &:focus, &:hover {
+          background: transparent;
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  .nav-tabs {
+    border-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 0;
+
+    &.with-two {
+      .nav-link {
+        margin-right: 100px;
+        padding-top: 12px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .nav-link {
+      &.second-text {
+        @include toRem(font-size, 16);
+        border: none;
+        padding: 0 0 25px;
+        font-weight: 500;
+
+        &:hover {
+          color: $gray-text;
+        }
+
+        &.active {
+          color: $green;
+          border-bottom: 1px solid $green;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    padding: 30px 25px;
+  }
+}
+
+.pl-5 {
+  padding-left: 5px !important;
+}
+
+.datepicker {
+  @include toRem(padding, 5);
+
+  .datepicker-days {
+    .table-condensed {
+      td {
+        padding: 4px 5px;
+        @include toRem(font-size, 12)
+      }
+    }
+  }
+}

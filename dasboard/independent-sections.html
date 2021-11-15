@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appartment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../css/fontawesome.min.css" rel="stylesheet">
+    <link href="../css/all.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<section class="landing landing-dashboard dashboard products gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 p-0 sidebar-side">
+                <div class="sidebar bg-white">
+                    <a class="navbar-brand m-0" href="index.html">
+                        <img src="../images/logo-appartment.svg" class="img-fluid" alt="logo">
+                    </a>
+                    <ul class="p-0 m-0 list-unstyled">
+                        <li>
+                            <a href="index.html" class="clipboard">Özet</a>
+                        </li>
+                        <li>
+                            <a href="persons-list.html" class="persons">Kişiler</a>
+                        </li>
+                        <li>
+                            <a href="independent-sections.html" class="envelope active">Bağımsız Bölümler</a>
+                        </li>
+                        <li>
+                            <a href="firms.html" class="firms">Firmalar</a>
+                        </li>
+                        <li>
+                            <a href="debiting.html" class="list">Toplu Borçlandırma</a>
+                        </li>
+                        <li class="nav-item dropdown static-dropdown">
+                            <a class="nav-link chart dropdown-toggle" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Finansal İşlemler</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="financial/transactions.html">Borçlandırmalar</a>
+                                <a class="dropdown-item" href="financial/collections.html">Tahsilatlar</a>
+                                <a class="dropdown-item" href="financial/expenses.html">Giderlerim</a>
+                                <a class="dropdown-item" href="financial/income.html">Gelirlerim</a>
+                                <a class="dropdown-item" href="financial/transfer.html">Hesaplar Arası Virman</a>
+                                <a class="dropdown-item" href="financial/return.html">Ödeme İadesi</a>
+                                <a class="dropdown-item" href="financial/opening.html">Açılış Fişleri</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="sad">Sayaç İşlemleri</a>
+                        </li>
+                        <li class="nav-item dropdown static-dropdown">
+                            <a class="nav-link contact-dash dropdown-toggle" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">İletişim</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="contact/send-sms.html">Sms Gönderimi</a>
+                                <a class="dropdown-item" href="contact/send-email.html">E-posta Gönderimi</a>
+                                <a class="dropdown-item" href="contact/decision-notebook.html">Karar Defteri</a>
+                                <a class="dropdown-item" href="contact/document-management.html">Doküman Yönetimi</a>
+                                <a class="dropdown-item" href="contact/feedback.html">Geri Bildirim</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown static-dropdown">
+                            <a class="nav-link notification dropdown-toggle" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tanımlar</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="definitions/block.html">Blok</a>
+                                <a class="dropdown-item" href="definitions/groups.html">Tipler / Gruplar</a>
+                                <a class="dropdown-item" href="definitions/case.html">Kasa</a>
+                                <a class="dropdown-item" href="definitions/income.html">Gelir - Gider</a>
+                                <a class="dropdown-item" href="definitions/employee.html">Personel</a>
+                                <a class="dropdown-item" href="definitions/tool.html">Araç</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="reports.html" class="chart-pie">Raporlar</a>
+                        </li>
+                        <li>
+                            <a href="settings.html" class="settings">Ayarlar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-5">
+                        <form class="search-form" action="...">
+                            <label class="search top-search form-control-label position-relative w-100">
+                                <input type="text" class="form-control border-0"
+                                       placeholder="Kişi, bağımsız bölüm veya daha fazlasını ara…">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="col-7">
+                        <nav class="navbar navbar-expand">
+                            <ul class="navbar-nav m-auto justify-content-end">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link services dropdown-toggle" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <p class="second-text d-md-block d-none">Hayatınızı Kolaylaştıran Ürünler</p>
+                                        <div class="d-flex justify-content-between flex-wrap">
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item mini-dropdown dropdown">
+                                    <a class="nav-link notifications position-relative" id="navbarDropdown2"
+                                       role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="badge badge-danger"></span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                        <h3 class="inner-heading">Bildirimler</h3>
+                                        <p class="second-text notification-text d-none">Bildiriminiz
+                                            bulunmamaktadır.</p>
+                                        <div class="d-block">
+                                            <a class="dropdown-item d-flex align-items-start justify-content-between no-after pl-0"
+                                               href="#">
+                                                <div class="position-relative">
+                                                    <span class="badge badge-danger"></span>
+                                                    <img src="../images/icons/notif.svg" class="img-fluid" alt="notif">
+                                                </div>
+                                                <p class="second-text notification-text">Lorem Ipsum is simply dummy
+                                                    text of the printing and typesetting industry. Lorem Ipsum has been
+                                                    the
+                                                    industry’s
+                                                    standard dummy text ever since the 1500s,</p>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-start justify-content-between no-after pl-0"
+                                               href="#">
+                                                <div class="position-relative">
+                                                    <img src="../images/icons/notif.svg" class="img-fluid" alt="notif">
+                                                </div>
+                                                <p class="second-text notification-text">Lorem Ipsum is simply dummy
+                                                    text of the printing and typesetting industry. Lorem Ipsum has been
+                                                    the
+                                                    industry’s
+                                                    standard dummy text ever since the 1500s,</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item mini-dropdown dropdown">
+                                    <a class="nav-link mr-0 user dropdown-toggle" id="navbarDropdown1" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../images/User.svg" class="img-fluid" alt="user">
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                        <h3 class="inner-heading">Azar Nemanli</h3>
+                                        <form action="...">
+                                            <label class="search form-control-label position-relative w-100">
+                                                <input type="text" class="form-control gray-bg border-0"
+                                                       placeholder="Site Ara">
+                                            </label>
+                                        </form>
+                                        <div class="d-block">
+                                            <a class="dropdown-item d-flex justify-content-between site" href="#">
+                                                <h4 class="mb-0">Azar’s Site</h4>
+                                                <span class="btn-effect d-inline-block orange-button">Yönetİm</span>
+                                            </a>
+                                            <a class="dropdown-item settings" href="#">
+                                                <h4 class="mb-0">Profil Ayarları</h4>
+                                            </a>
+                                            <a class="dropdown-item logout" href="#">
+                                                <h4 class="mb-0">Çıkış Yap</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <section class="profile persons">
+                    <div class="container-fluid">
+                        <div class="d-flex justify-content-between">
+                            <div class="white-block go-back">Genel Toplam: <span class="green-text d-inline-block ml-2">38.094,00 TL</span></div>
+                            <div>
+                                <button type="button" class="btn btn-effect download bg-white download-ic"></button>
+                                <button type="button" class="btn btn-effect download bg-white print"></button>
+                            </div>
+                        </div>
+                        <div class="block persons white-block block-tabs p-0 table-list table-with-checkbox">
+                            <div class="block-table summary">
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>
+                                            <label class="check-button form-control-label">
+                                                <input type="checkbox" class="selectAll">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <th scope="col">Blok Adı</th>
+                                        <th scope="col">Kapı Numarası</th>
+                                        <th scope="col">Kat Maliki</th>
+                                        <th scope="col">Kiracı</th>
+                                        <th scope="col">Bakiye</th>
+                                        <th scope="col">İşlem</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <label class="check-button form-control-label">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>A</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>1</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>Azar Nemanli</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>azar@nemanli.com</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>$11.45</td>
+                                        <td>
+                                            <div class="nav-item mini-dropdown dropdown">
+                                                <a class="nav-link mr-0 user dropdown-toggle"
+                                                   role="button"
+                                                   data-toggle="dropdown" aria-haspopup="true"
+                                                   aria-expanded="false">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </a>
+                                                <div class="dropdown-menu block bg-white">
+                                                    <div class="d-block">
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">Borçlandır</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">Tahsil et</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">E-Posta Gönder</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">SMS Gönder</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0 red">Sil</h4>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="check-button form-control-label">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>A</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>1</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>Azar Nemanli</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>azar@nemanli.com</td>
+                                        <td class='clickable-row' data-href='sections-inner.html'>$11.45</td>
+                                        <td>
+                                            <div class="nav-item mini-dropdown dropdown">
+                                                <a class="nav-link mr-0 user dropdown-toggle"
+                                                   role="button"
+                                                   data-toggle="dropdown" aria-haspopup="true"
+                                                   aria-expanded="false">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </a>
+                                                <div class="dropdown-menu block bg-white">
+                                                    <div class="d-block">
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">Borçlandır</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">Tahsil et</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">E-Posta Gönder</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">SMS Gönder</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0 red">Sil</h4>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <div class="text-right d-flex justify-content-end align-items-center">
+                                    <span class="pagination-text">2 kayıttan 1-2 gösteriliyor</span>
+                                    <nav>
+                                        <ul class="pagination m-0">
+                                            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
+                                            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="../js/slim.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-datepicker.min.js"></script>
+<script src="../js/bootstrap-select.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

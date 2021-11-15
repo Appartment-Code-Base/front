@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+    <path style="fill:none" d="M0 0h26v26H0z"/>
+    <path data-name="Rectangle 189 Copy" transform="translate(8 4.4)" style="fill:#fff;opacity:.3" d="M0 0h10v4H0z"/>
+    <path data-name="Combined Shape" d="M14 22H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2zm-1.428-4.4a1.1 1.1 0 1 0 1.143 1.1 1.123 1.123 0 0 0-1.144-1.1zm-9.186 0a1.1 1.1 0 0 0 0 2.2h4.656a1.1 1.1 0 0 0 0-2.2zm9.186-4.4a1.1 1.1 0 1 0 1.143 1.1 1.123 1.123 0 0 0-1.144-1.1zM8 13.2a1.1 1.1 0 1 0 1.143 1.1A1.123 1.123 0 0 0 8 13.2zm-4.571 0a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 1 0 0-2.2zm9.143-4.4a1.1 1.1 0 1 0 1.143 1.1 1.123 1.123 0 0 0-1.144-1.1zM8 8.8a1.1 1.1 0 1 0 1.142 1.1A1.123 1.123 0 0 0 8 8.8zm-4.571 0a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 1 0 0-2.2zM2.285 2.2v4.4h11.429V2.2z" transform="translate(5 2)" style="fill:#38cb89"/>
+</svg>

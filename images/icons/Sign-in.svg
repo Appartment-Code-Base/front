@@ -1,0 +1,11 @@
+<svg id="Sign-in" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2{fill:#b0b7c3;opacity:.3}
+        </style>
+    </defs>
+    <path id="bound" style="fill:none" d="M0 0h24v24H0z"/>
+    <rect id="Rectangle" class="cls-2" width="2" height="12" rx="1" transform="rotate(90 2 13)"/>
+    <path id="Path_103" data-name="Path 103" class="cls-2" d="M15 2.006a1 1 0 1 1 0-2h1a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h1a1 1 0 1 1 0 2H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" transform="rotate(-90 15 7)"/>
+    <path id="Path_104" data-name="Path 104" d="M6.293.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3A1 1 0 0 1 1.707.293L4 2.586z" transform="rotate(-90 14 2)" style="fill:#005450;opacity:.5"/>
+</svg>

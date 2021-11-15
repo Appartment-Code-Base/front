@@ -1,0 +1,5 @@
+<svg id="Chart-line_1" data-name="Chart-line#1" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <rect id="bound" width="26" height="26" fill="none"/>
+  <path id="Path_95" data-name="Path 95" d="M2.222,17.778H18.889a1.111,1.111,0,0,1,0,2.222H1.111A1.111,1.111,0,0,1,0,18.889V1.111a1.111,1.111,0,1,1,2.222,0Z" transform="translate(3 3)" fill="#b0b7c3" opacity="0.3"/>
+  <path id="Path_97" data-name="Path 97" d="M1.73,8.184A1,1,0,1,1,.27,6.816l3.75-4A1,1,0,0,1,5.4,2.739l2.96,2.526L12.215.38a1,1,0,1,1,1.57,1.239l-4.5,5.7a1,1,0,0,1-1.434.141L4.827,4.88Z" transform="translate(8 8.339)" fill="#005450" opacity="0.5"/>
+</svg>

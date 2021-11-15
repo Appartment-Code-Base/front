@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+    <path data-name="Rectangle 10" style="fill:none" d="M0 0h26v26H0z"/>
+    <path data-name="Path 3" d="m6 22 8-13.2H8V0L0 13.2h6z" transform="translate(11 2)" style="fill:#ffa726"/>
+    <path data-name="Combined Shape" d="M3.5 15a1.5 1.5 0 1 1 0-3h5a1.5 1.5 0 0 1 0 3zm-2-6a1.5 1.5 0 1 1 0-3h4a1.5 1.5 0 0 1 0 3zm2-6a1.5 1.5 0 1 1 0-3h5a1.5 1.5 0 0 1 0 3z" transform="translate(2 6.112)" style="opacity:.3;fill:#ffa726"/>
+</svg>

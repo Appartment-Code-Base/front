@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <defs>
+        <style>
+            .cls-3{fill:#005450;opacity:.5}
+        </style>
+    </defs>
+    <g id="Shield-user" transform="translate(0 .448)">
+        <path id="bound" transform="translate(0 -.448)" style="fill:none" d="M0 0h32v32H0z"/>
+        <path id="Path_50" data-name="Path 50" d="M0 1.907 10.507-.035l10.508 1.942v18.121L10.507 26.5 0 20.028z" transform="translate(5.254 3.323)" style="fill:#b0b7c3;opacity:.3"/>
+        <path id="Mask" class="cls-3" d="M2.627 5.178A2.608 2.608 0 0 1 0 2.589 2.608 2.608 0 0 1 2.627 0a2.608 2.608 0 0 1 2.627 2.589 2.608 2.608 0 0 1-2.627 2.589z" transform="translate(13.134 9.113)"/>
+        <path id="Mask_Copy" data-name="Mask Copy" class="cls-3" d="M0 5.824C.283 1.963 3.11 0 6.555 0c3.494 0 6.364 1.855 6.578 5.825a.541.541 0 0 1-.548.647H.531c-.183 0-.546-.438-.531-.648z" transform="translate(9.194 15.585)"/>
+    </g>
+</svg>

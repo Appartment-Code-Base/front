@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+    <path style="fill:none" d="M0 0h26v26H0z"/>
+    <path data-name="Combined Shape" d="M6.286 21H0V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v19H9.715v-3.421a1 1 0 0 0-1-1H7.286a1 1 0 0 0-1 1V21zm3.856-9.949a1 1 0 0 0-1 1v1.315a1 1 0 0 0 1 1h1.429a1 1 0 0 0 1-1v-1.313a1 1 0 0 0-1-1zm-5.714 0a1 1 0 0 0-1 1v1.315a1 1 0 0 0 1 1h1.429a1 1 0 0 0 1-1v-1.313a1 1 0 0 0-1-1zm0-4.421a1 1 0 0 0-1 1v1.317a1 1 0 0 0 1 1h1.429a1 1 0 0 0 1-1V7.631a1 1 0 0 0-1-1zm5.715-4.42a1 1 0 0 0-1 1v1.316a1 1 0 0 0 1 1h1.429a1 1 0 0 0 1-1V3.21a1 1 0 0 0-1-1zm-5.714 0a1 1 0 0 0-1 1v1.316a1 1 0 0 0 1 1h1.428a1 1 0 0 0 1-1V3.21a1 1 0 0 0-1-1z" transform="translate(5 2)" style="fill:#b0b7c3;opacity:.3"/>
+    <rect data-name="Rectangle Copy 2" width="3" height="3" rx="1" transform="translate(14.238 8.762)" style="fill:#fff"/>
+    <path data-name="Rectangle 2" d="M1.988 0h16.024A1.988 1.988 0 0 1 20 1.988a.012.012 0 0 1-.012.012H.012A.012.012 0 0 1 0 1.988 1.988 1.988 0 0 1 1.988 0z" transform="translate(3 23)" style="fill:#005450;opacity:.5"/>
+</svg>

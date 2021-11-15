@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="778.5" viewBox="0 0 1120 778.5">
+  <defs>
+    <filter id="Rectangle_12" x="615.5" y="512.5" width="460" height="266" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#1e2839" flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_606" data-name="Group 606" transform="translate(-160 -554)">
+    <g id="Dashboard" transform="translate(1 1)">
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(179 564)" fill="#fff" stroke="#f5f3ee" stroke-width="1">
+        <rect width="1080" height="670" rx="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1079" height="669" rx="14.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="220" height="590" rx="10" transform="translate(219 604)" fill="rgba(245,243,238,0.4)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="290" height="285" rx="10" transform="translate(464 604)" fill="rgba(245,243,238,0.4)"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="445" height="285" rx="10" transform="translate(464 909)" fill="rgba(245,243,238,0.4)"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="290" height="285" rx="10" transform="translate(929 909)" fill="rgba(245,243,238,0.4)"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="445" height="285" rx="10" transform="translate(774 604)" fill="rgba(245,243,238,0.4)"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(1 42)">
+      <g id="Group_59" data-name="Group 59">
+        <rect id="Rectangle_15" data-name="Rectangle 15" width="445" height="281" rx="10" transform="translate(497 547)" fill="#fff"/>
+        <g id="Card" transform="translate(461 453)">
+          <path id="Card-2" data-name="Card" d="M15,0h98a0,0,0,0,1,0,0V160a0,0,0,0,1,0,0H15A15,15,0,0,1,0,145V15A15,15,0,0,1,15,0Z" transform="translate(340 180)" fill="rgba(245,243,238,0.4)"/>
+          <text id="Borçlarım" transform="translate(360 317)" fill="#9da3ad" font-size="14" font-family="Sarabun-Medium, Sarabun" font-weight="500"><tspan x="0" y="0">Borçlarım</tspan></text>
+          <text id="_2.111_00_TL" data-name="2.111,00 TL" transform="translate(360 291)" fill="#1e2839" font-size="24" font-family="Sarabun-Bold, Sarabun" font-weight="700"><tspan x="0" y="0">2.111,0</tspan></text>
+          <g id="Group_18" data-name="Group 18" transform="translate(360 200)">
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="25" cy="25" r="25" fill="rgba(229,57,53,0.1)"/>
+            <g id="Wallet_2" data-name="Wallet#2" transform="translate(12 12)">
+              <rect id="bound" width="26" height="26" fill="none"/>
+              <circle id="Oval_47" data-name="Oval 47" cx="2.5" cy="2.5" r="2.5" transform="translate(19.5 13.203)" fill="#ff5630" opacity="0.3"/>
+              <path id="Rectangle_162" data-name="Rectangle 162" d="M1.084.013,18.64.43a1.12,1.12,0,0,1,1.123,1.033l.13,5.035a.994.994,0,0,1-1.071.981L1.266,7.062A1.12,1.12,0,0,1,.143,6.029L.012.994A.994.994,0,0,1,1.084.013Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 1.917, 6.982)" fill="#ff5630" opacity="0.3"/>
+              <path id="Combined_Shape" data-name="Combined Shape" d="M20,18H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H20a2,2,0,0,1,2,2V6a3.744,3.744,0,0,0-1.651-.379,3.939,3.939,0,0,0,0,7.875A3.747,3.747,0,0,0,22,13.121V16A2,2,0,0,1,20,18Z" transform="translate(1.5 6.155)" fill="#ff5630"/>
+            </g>
+          </g>
+        </g>
+        <g id="Card-3" data-name="Card" transform="translate(456 453)">
+          <rect id="Card-4" data-name="Card" width="244" height="160" rx="15" transform="translate(71 180)" fill="rgba(245,243,238,0.4)"/>
+          <text id="Tahsil_Edilen_Ağustos_" data-name="Tahsil Edilen (Ağustos)" transform="translate(91 317)" fill="#9da3ad" font-size="14" font-family="Sarabun-Medium, Sarabun" font-weight="500"><tspan x="0" y="0">Tahsil Edilen (Ağustos)</tspan></text>
+          <text id="_1.000_00_TL" data-name="1.000,00 TL" transform="translate(91 291)" fill="#1e2839" font-size="24" font-family="Sarabun-Bold, Sarabun" font-weight="700"><tspan x="0" y="0">1.000,00 TL</tspan></text>
+          <g id="Group_18-2" data-name="Group 18" transform="translate(91 200)">
+            <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="25" cy="25" r="25" fill="rgba(102,187,106,0.1)"/>
+            <g id="Home" transform="translate(12 12)">
+              <rect id="bound-2" data-name="bound" width="26" height="26" fill="none"/>
+              <path id="Combined_Shape-2" data-name="Combined Shape" d="M20,19.5H0V6.128L10,0,20,6.128V19.5ZM6.556,11.7a1,1,0,0,0-1,1v.229a1,1,0,0,0,1,1H8.889v2.343a1,1,0,0,0,1,1h.222a1,1,0,0,0,1-1V13.928h2.334a1,1,0,0,0,1-1V12.7a1,1,0,0,0-1-1H11.111V9.357a1,1,0,0,0-1-1H9.889a1,1,0,0,0-1,1V11.7Z" transform="translate(3 3.5)" fill="#38cb89"/>
+            </g>
+          </g>
+        </g>
+        <text id="Özet" transform="translate(527 599)" fill="#323b4b" font-size="18" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Özet</tspan></text>
+      </g>
+      <g id="Sidebar" transform="translate(159 442)">
+        <rect id="Sidebar-2" data-name="Sidebar" width="220" height="568" rx="10" transform="translate(0 70)" fill="#fff"/>
+        <g id="Pages" transform="translate(13.506 90.043)">
+          <g id="Overview">
+            <rect id="Rectangle_5" data-name="Rectangle 5" width="192" height="41" rx="7" transform="translate(0.494 -0.043)" fill="rgba(245,243,238,0.4)"/>
+          </g>
+          <text id="Text" transform="translate(43.869 75.229)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Kişiler</tspan></text>
+          <text id="Text-2" data-name="Text" transform="translate(43.652 124.753)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Bağımsız Bölümler</tspan></text>
+          <text id="Text-3" data-name="Text" transform="translate(43.845 174.276)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Firmalar</tspan></text>
+          <text id="Text-4" data-name="Text" transform="translate(43.883 25.706)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Özet</tspan></text>
+          <g id="layout-4-blocks_1" data-name="layout-4-blocks 1" transform="translate(9.004 9.004)">
+            <path id="Vector" d="M0,0H23.411V23.411H0Z" fill="none" opacity="0"/>
+            <path id="Vector-2" data-name="Vector" d="M1.516,0H5.56A1.519,1.519,0,0,1,7.077,1.521V5.578A1.519,1.519,0,0,1,5.56,7.1H1.516A1.519,1.519,0,0,1,0,5.578V1.521A1.519,1.519,0,0,1,1.516,0Z" transform="translate(3.729 3.602)" fill="#005450" opacity="0.5"/>
+            <path id="Vector-3" data-name="Vector" d="M1.519,9.117H5.571a1.519,1.519,0,0,1,1.519,1.519v4.052a1.519,1.519,0,0,1-1.519,1.519H1.519A1.519,1.519,0,0,1,0,14.688V10.636A1.519,1.519,0,0,1,1.519,9.117ZM10.636,0h4.052a1.519,1.519,0,0,1,1.519,1.519V5.571a1.519,1.519,0,0,1-1.519,1.519H10.636A1.519,1.519,0,0,1,9.117,5.571V1.519A1.519,1.519,0,0,1,10.636,0Zm0,9.117h4.052a1.519,1.519,0,0,1,1.519,1.519v4.052a1.519,1.519,0,0,1-1.519,1.519H10.636a1.519,1.519,0,0,1-1.519-1.519V10.636A1.519,1.519,0,0,1,10.636,9.117Z" transform="translate(3.602 3.602)" fill="#b0b7c3" opacity="0.3"/>
+          </g>
+          <text id="Text-5" data-name="Text" transform="translate(43.62 223.8)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Toplu Borçlandırma</tspan></text>
+          <text id="Text-6" data-name="Text" transform="translate(43.701 273.324)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Finansal İşlemler</tspan></text>
+          <text id="Text-7" data-name="Text" transform="translate(43.75 322.847)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Sayaç İşlemleri</tspan></text>
+          <text id="Text-8" data-name="Text" transform="translate(43.857 372.371)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">İletişim</tspan></text>
+          <text id="Text-9" data-name="Text" transform="translate(43.842 421.894)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Tanımlar</tspan></text>
+          <text id="Text-10" data-name="Text" transform="translate(43.844 471.418)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Raporlar</tspan></text>
+          <text id="Text-11" data-name="Text" transform="translate(43.861 520.941)" fill="#1e2839" font-size="13" font-family="Sarabun-Regular, Sarabun"><tspan x="0" y="0">Ayarlar</tspan></text>
+          <g id="Group" transform="translate(9.004 58.528)">
+            <path id="Shape" d="M0,0H23.411V23.411H0Z" fill="none"/>
+            <path id="Mask" d="M2.7,5.4A2.7,2.7,0,1,1,5.4,2.7,2.7,2.7,0,0,1,2.7,5.4Z" transform="translate(14.407 8.104)" fill="#005450" opacity="0.5"/>
+            <path id="Mask-2" data-name="Mask" d="M3.6,7.2A3.6,3.6,0,1,1,7.2,3.6,3.6,3.6,0,0,1,3.6,7.2Z" transform="translate(4.502 4.502)" fill="#005450" opacity="0.5"/>
+            <path id="Subtract" d="M5.271,5.4H1.8A8.926,8.926,0,0,0,0,0,6.51,6.51,0,0,1,3.96,1.215a4.8,4.8,0,0,1,1.8,3.647.558.558,0,0,1-.121.407A.485.485,0,0,1,5.271,5.4Z" transform="translate(15.849 15.308)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Mask_Copy" data-name="Mask Copy" d="M0,6.482C.35,2.185,3.838,0,8.089,0c4.311,0,7.853,2.065,8.117,6.483a.619.619,0,0,1-.676.72H.655A1,1,0,0,1,0,6.482Z" transform="translate(0 13.506)" fill="#b0b7c3" opacity="0.3"/>
+          </g>
+          <g id="Building" transform="translate(9.004 157.575)">
+            <rect id="bound-3" data-name="bound" width="23" height="23" transform="translate(0.489 0.382)" fill="none"/>
+            <path id="Combined_Shape-3" data-name="Combined Shape" d="M5.5,19H0V2A2,2,0,0,1,2,0H12a2,2,0,0,1,2,2V19H8.5V16a1,1,0,0,0-1-1h-1a1,1,0,0,0-1,1v3ZM9,10a1,1,0,0,0-1,1v1a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1V11a1,1,0,0,0-1-1ZM4,10a1,1,0,0,0-1,1v1a1,1,0,0,0,1,1H5a1,1,0,0,0,1-1V11a1,1,0,0,0-1-1ZM4,6A1,1,0,0,0,3,7V8A1,1,0,0,0,4,9H5A1,1,0,0,0,6,8V7A1,1,0,0,0,5,6ZM9,2A1,1,0,0,0,8,3V4A1,1,0,0,0,9,5h1a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1ZM4,2A1,1,0,0,0,3,3V4A1,1,0,0,0,4,5H5A1,1,0,0,0,6,4V3A1,1,0,0,0,5,2Z" transform="translate(4.489 1.382)" fill="#b0b7c3" opacity="0.3"/>
+            <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="2.701" height="2.701" rx="1" transform="translate(12.82 7.889)" fill="#fff"/>
+            <path id="Rectangle_2" data-name="Rectangle 2" d="M1.988,0H16.012A1.988,1.988,0,0,1,18,1.988v0A.012.012,0,0,1,17.988,2H.012A.012.012,0,0,1,0,1.988v0A1.988,1.988,0,0,1,1.988,0Z" transform="translate(2.489 20.382)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Clipboard-list" transform="translate(9.004 207.099)">
+            <rect id="bound-4" data-name="bound" width="23" height="24" transform="translate(0.489 -0.142)" fill="none"/>
+            <path id="Combined_Shape-4" data-name="Combined Shape" d="M14,20H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H4V.5A1.5,1.5,0,0,0,5.5,2h5A1.5,1.5,0,0,0,12,.5V0h2a2,2,0,0,1,2,2V18A2,2,0,0,1,14,20Z" transform="translate(3.489 2.858)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Combined_Shape-5" data-name="Combined Shape" d="M.5,3A.5.5,0,0,1,0,2.5v-1A.5.5,0,0,1,.5,1H1.667A.928.928,0,0,1,2.5,0a.929.929,0,0,1,.833,1H4.5a.5.5,0,0,1,.5.5v1a.5.5,0,0,1-.5.5Z" transform="translate(9.489 0.858)" fill="#005450" opacity="0.5"/>
+            <rect id="Rectangle_152" data-name="Rectangle 152" width="6.303" height="1.801" rx="0.9" transform="translate(10.064 8.841)" fill="#fff"/>
+            <rect id="Rectangle_152_Copy_2" data-name="Rectangle 152 Copy 2" width="1.801" height="1.801" rx="0.9" transform="translate(6.876 8.841)" fill="#fff"/>
+            <rect id="Rectangle_152_Copy_3" data-name="Rectangle 152 Copy 3" width="1.801" height="1.801" rx="0.9" transform="translate(6.876 12.77)" fill="#fff"/>
+            <rect id="Rectangle_152_Copy" data-name="Rectangle 152 Copy" width="6.303" height="1.801" rx="0.9" transform="translate(10.064 12.77)" fill="#fff"/>
+            <rect id="Rectangle_152_Copy_5" data-name="Rectangle 152 Copy 5" width="1.801" height="1.801" rx="0.9" transform="translate(6.876 16.699)" fill="#fff"/>
+            <rect id="Rectangle_152_Copy_4" data-name="Rectangle 152 Copy 4" width="6.303" height="1.801" rx="0.9" transform="translate(10.064 16.699)" fill="#fff"/>
+          </g>
+          <g id="Chart-line_1" data-name="Chart-line#1" transform="translate(9.004 256.622)">
+            <rect id="bound-5" data-name="bound" width="23" height="23" transform="translate(0.489 0.335)" fill="none"/>
+            <path id="Path_95" data-name="Path 95" d="M2,16.008H17.008a1,1,0,0,1,0,2H1a1,1,0,0,1-1-1V1A1,1,0,0,1,2,1Z" transform="translate(2.701 2.701)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Path_97" data-name="Path 97" d="M1.557,7.369A.9.9,0,0,1,.244,6.137l3.377-3.6a.9.9,0,0,1,1.241-.069L7.527,4.741,11,.343a.9.9,0,0,1,1.413,1.116L8.36,6.591a.9.9,0,0,1-1.291.127L4.346,4.394Z" transform="translate(7.203 7.508)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Active-call" transform="translate(9.004 355.669)">
+            <rect id="bound-6" data-name="bound" width="23" height="23" transform="translate(0.489 0.288)" fill="none"/>
+            <path id="Path_76" data-name="Path 76" d="M6.9,10.143,8.886,7.9a2.243,2.243,0,0,0,.337-2.353l-.112-.255a2.243,2.243,0,0,1,.337-2.353L11.909.149a.414.414,0,0,1,.637,0,.513.513,0,0,1,.084.132l.994,2.251a4.92,4.92,0,0,1-.74,5.163l-5.4,6.115a4.493,4.493,0,0,1-5,1.336l-2.174-.82a.544.544,0,0,1-.176-.844l2.387-2.7A1.648,1.648,0,0,1,4.6,10.4l.225.127A1.648,1.648,0,0,0,6.9,10.143Z" transform="translate(6.677 4.352)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Combined_Shape-6" data-name="Combined Shape" d="M.042,10.815h0A9.906,9.906,0,0,1,9.9,0c.307,0,.618.014.924.043l-.167,1.793c-.249-.023-.5-.035-.759-.035A8.1,8.1,0,0,0,1.835,10.65l-1.792.164Zm3.588-.321h0A6.3,6.3,0,0,1,9.9,3.6c.2,0,.407.01.609.029l-.173,1.793C10.2,5.41,10.05,5.4,9.9,5.4a4.5,4.5,0,0,0-4.48,4.923l-1.792.168Z" transform="translate(2.228 1.778)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Notifications_2" data-name="Notifications#2" transform="translate(9.004 405.193)">
+            <rect id="bound-7" data-name="bound" width="23" height="24" transform="translate(0.489 -0.236)" fill="none"/>
+            <path id="Combined_Shape-7" data-name="Combined Shape" d="M13,16H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0H9.207A5.505,5.505,0,0,0,16,6.793V13A3,3,0,0,1,13,16Z" transform="translate(3.489 3.764)" fill="#b0b7c3" opacity="0.3"/>
+            <circle id="Oval" cx="2" cy="2" r="2" transform="translate(15.489 3.764)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Chart-pie" transform="translate(9.004 454.717)">
+            <rect id="bound-8" data-name="bound" width="23" height="23" transform="translate(0.489 0.241)" fill="none"/>
+            <path id="Combined_Shape-8" data-name="Combined Shape" d="M7.862,16.152A8.112,8.112,0,0,1,0,10.072H8.877V0A8.107,8.107,0,0,1,7.862,16.152Z" transform="translate(3.828 3.657)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Combined_Shape_Copy" data-name="Combined Shape Copy" d="M7.149,7.744h0L0,6.314A7.207,7.207,0,0,1,7.149,0V7.743Z" transform="translate(3.656 3.601)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Home-heart" transform="translate(9.004 108.051)">
+            <rect id="bound-9" data-name="bound" width="23" height="24" transform="translate(0.489 -0.094)" fill="none"/>
+            <path id="Combined_Shape-9" data-name="Combined Shape" d="M0,5.346,9-.172l9,5.518v12.04H0Z" transform="translate(2.701 3.323)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Shape-2" data-name="Shape" d="M6.227,0C5.485,0,4.617.842,4.152,1.384,3.686.842,2.818,0,2.076,0A2.1,2.1,0,0,0,0,2.33C0,4.5,4.152,6.919,4.152,6.919S8.3,4.5,8.3,2.422A2.181,2.181,0,0,0,6.227,0Z" transform="translate(7.554 10.268)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Sad" transform="translate(9.004 306.146)">
+            <rect id="bound-10" data-name="bound" width="23" height="24" transform="translate(0.489 -0.189)" fill="none"/>
+            <rect id="Combined_Shape-10" data-name="Combined Shape" width="20" height="20" rx="10" transform="translate(1.489 1.811)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Path_56" data-name="Path 56" d="M.177-1.9A.825.825,0,0,0,.468-.649,1.162,1.162,0,0,0,1.925-.9a5.317,5.317,0,0,1,8.757,0,1.162,1.162,0,0,0,1.457.25A.825.825,0,0,0,12.43-1.9,7.5,7.5,0,0,0,6.3-5,7.5,7.5,0,0,0,.177-1.9Z" transform="translate(5.402 17.037)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="Settings" transform="translate(9.004 504.24)">
+            <rect id="bound-11" data-name="bound" width="23" height="24" transform="translate(0.489 -0.283)" fill="none"/>
+            <path id="Combined_Shape-11" data-name="Combined Shape" d="M15.63,6.753h.128a2.251,2.251,0,0,1,0,4.5h-.065a.5.5,0,0,0-.358.835l.045.045A2.252,2.252,0,1,1,12.2,15.32l-.039-.039a.5.5,0,0,0-.841.349v.128a2.251,2.251,0,0,1-4.5,0,.524.524,0,0,0-.363-.514.485.485,0,0,0-.532.092l-.045.045A2.252,2.252,0,1,1,2.688,12.2l.039-.039a.5.5,0,0,0-.349-.841H2.251a2.251,2.251,0,0,1,0-4.5.524.524,0,0,0,.514-.363.485.485,0,0,0-.092-.532l-.045-.045A2.252,2.252,0,1,1,5.813,2.688l.039.039a.488.488,0,0,0,.538.1L6.5,2.8a.486.486,0,0,0,.255-.424V2.251a2.251,2.251,0,1,1,4.5,0v.065a.491.491,0,0,0,.3.45.485.485,0,0,0,.532-.092l.045-.045A2.252,2.252,0,1,1,15.32,5.813l-.039.039a.488.488,0,0,0-.1.538l.023.108A.486.486,0,0,0,15.63,6.753Z" transform="translate(2.701 2.701)" fill="#b0b7c3" opacity="0.3"/>
+            <path id="Path" d="M2.7,5.4A2.7,2.7,0,1,0,0,2.7,2.7,2.7,0,0,0,2.7,5.4Z" transform="translate(9.004 9.004)" fill="#005450" opacity="0.5"/>
+          </g>
+          <g id="icon-chevron-down_1" data-name="icon-chevron-down 1" transform="translate(171.982 266.527)">
+            <path id="Vector-4" data-name="Vector" d="M0,3.6,3.6,0,7.2,3.6" transform="translate(7.203 3.602) rotate(180)" fill="none" stroke="#b0b7c3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <g id="icon-chevron-down_1-2" data-name="icon-chevron-down 1" transform="translate(171.982 365.574)">
+            <path id="Vector-5" data-name="Vector" d="M0,3.6,3.6,0,7.2,3.6" transform="translate(7.203 3.602) rotate(180)" fill="none" stroke="#b0b7c3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <g id="icon-chevron-down_1-3" data-name="icon-chevron-down 1" transform="translate(171.982 415.098)">
+            <path id="Vector-6" data-name="Vector" d="M0,3.6,3.6,0,7.2,3.6" transform="translate(7.203 3.602) rotate(180)" fill="none" stroke="#b0b7c3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_399" data-name="Group 399">
+        <rect id="Rectangle_16" data-name="Rectangle 16" width="290" height="285" rx="10" transform="translate(435 944)" fill="#fff"/>
+        <g id="Card-5" data-name="Card" transform="translate(-152 787)">
+          <rect id="Card-6" data-name="Card" width="244" height="160" rx="15" transform="translate(610 180)" fill="rgba(245,243,238,0.4)"/>
+          <text id="Alacaklarım" transform="translate(630 317)" fill="#9da3ad" font-size="14" font-family="Sarabun-Medium, Sarabun" font-weight="500"><tspan x="0" y="0">Alacaklarım</tspan></text>
+          <text id="_26.872_00_TL" data-name="26.872,00 TL" transform="translate(630 291)" fill="#1e2839" font-size="24" font-family="Sarabun-Bold, Sarabun" font-weight="700"><tspan x="0" y="0">26.872,00 TL</tspan></text>
+          <g id="Group_18-3" data-name="Group 18" transform="translate(630 200)">
+            <circle id="Ellipse_3-3" data-name="Ellipse 3" cx="25" cy="25" r="25" fill="rgba(216,27,96,0.1)"/>
+            <g id="Safe" transform="translate(13 13)">
+              <rect id="bound-12" data-name="bound" width="26" height="26" fill="none"/>
+              <path id="Combined_Shape-12" data-name="Combined Shape" d="M11.428,5V0H16V5ZM1.5,5A1.5,1.5,0,0,1,0,3.5v-2A1.5,1.5,0,0,1,1.5,0H3.071a1.5,1.5,0,0,1,1.5,1.5v2A1.5,1.5,0,0,1,3.071,5Z" transform="translate(5 17.056)" fill="#d81b60" opacity="0.3"/>
+              <path id="Combined_Shape-13" data-name="Combined Shape" d="M18,15H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H18a2,2,0,0,1,2,2V13A2,2,0,0,1,18,15ZM14.5,4.111a3.5,3.5,0,1,0,3.5,3.5A3.5,3.5,0,0,0,14.5,4.111ZM4,4.111a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0v-2A1,1,0,0,0,4,4.111Zm10.5,5a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,14.5,9.112Z" transform="translate(3 3.944)" fill="#d81b60"/>
+            </g>
+          </g>
+        </g>
+        <g id="Card-7" data-name="Card" transform="translate(-422 962)">
+          <path id="Card-8" data-name="Card" d="M15,0H229a15,15,0,0,1,15,15V70a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V15A15,15,0,0,1,15,0Z" transform="translate(880 180)" fill="rgba(245,243,238,0.4)"/>
+          <g id="Group_18-4" data-name="Group 18" transform="translate(900 200)">
+            <circle id="Ellipse_3-4" data-name="Ellipse 3" cx="25" cy="25" r="25" fill="rgba(255,167,38,0.1)"/>
+            <g id="Thunder-move" transform="translate(12 12)">
+              <rect id="Rectangle_10-2" data-name="Rectangle 10" width="26" height="26" fill="none"/>
+              <path id="Path_3" data-name="Path 3" d="M6,22,14,8.8H8V0L0,13.2H6Z" transform="translate(11 2)" fill="#ffa726"/>
+              <path id="Combined_Shape-14" data-name="Combined Shape" d="M3.5,15a1.5,1.5,0,1,1,0-3h5a1.5,1.5,0,0,1,0,3Zm-2-6a1.5,1.5,0,1,1,0-3h4a1.5,1.5,0,0,1,0,3Zm2-6a1.5,1.5,0,1,1,0-3h5a1.5,1.5,0,0,1,0,3Z" transform="translate(2 6.112)" fill="#ffa726" opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_400" data-name="Group 400">
+        <g transform="matrix(1, 0, 0, 1, 159, 512)" filter="url(#Rectangle_12)">
+          <rect id="Rectangle_12-2" data-name="Rectangle 12" width="445" height="251" rx="10" transform="translate(623 517)" fill="#fff"/>
+        </g>
+        <text id="Memnuniyet_Değerlendirmesi" data-name="Memnuniyet Değerlendirmesi" transform="translate(812 1081)" fill="#323b4b" font-size="18" font-family="Inter-SemiBold, Inter" font-weight="600"><tspan x="0" y="0">Memnuniyet Değerlendirmesi</tspan></text>
+        <g id="customer" transform="translate(749 1115)">
+          <text id="Customer_ID_02234" data-name="Customer ID#02234" transform="translate(63 40)" fill="#9da3ad" font-size="12" font-family="Sarabun-Medium, Sarabun" font-weight="500"><tspan x="0" y="0">Customer ID#02234</tspan></text>
+          <text id="Azar_Nemanli" data-name="Azar Nemanli" transform="translate(63 20)" fill="#1e2839" font-size="14" font-family="Sarabun-Bold, Sarabun" font-weight="700"><tspan x="0" y="0">Azar Nemanli</tspan></text>
+          <g id="group-chat_1" data-name="group-chat 1" transform="translate(378.484 12)">
+            <g id="Group-2" data-name="Group">
+              <path id="Vector-7" data-name="Vector" d="M0,0H26V26H0Z" fill="none" opacity="0"/>
+              <path id="Vector-8" data-name="Vector" d="M10.658,13.684V9.75A3.25,3.25,0,0,0,7.408,6.5H0V2.737A2.737,2.737,0,0,1,2.737,0H15.509a2.737,2.737,0,0,1,2.737,2.737v8.211l.018,5.072a.542.542,0,0,1-.925.385l-2.72-2.72Z" transform="translate(6.5 3.25)" fill="#005450" opacity="0.5"/>
+              <path id="Vector-9" data-name="Vector" d="M0,7.583V2.167A2.167,2.167,0,0,1,2.167,0h8.667A2.167,2.167,0,0,1,13,2.167V7.583A2.167,2.167,0,0,1,10.833,9.75H2.292L.945,11.04a.542.542,0,0,1-.916-.391V7.935A2.182,2.182,0,0,1,0,7.583ZM4.891,3.25a.542.542,0,0,0,0,1.083h5.417a.542.542,0,0,0,0-1.083Zm3.25,2.167a.542.542,0,0,0,0,1.083h2.167a.542.542,0,0,0,0-1.083Z" transform="translate(2.15 11.917)" fill="#b0b7c3" opacity="0.3"/>
+            </g>
+          </g>
+          <g id="stop_1" data-name="stop 1" transform="translate(423.484 12)">
+            <g id="Group-3" data-name="Group">
+              <path id="Vector-10" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+              <path id="Vector-11" data-name="Vector" d="M10,20A10,10,0,1,1,20,10,10,10,0,0,1,10,20Zm0-2a8,8,0,1,0-8-8A8,8,0,0,0,10,18ZM17.071,2.929a1,1,0,0,1,0,1.414L4.343,17.071a1,1,0,0,1-1.414-1.414L15.657,2.929A1,1,0,0,1,17.071,2.929Z" transform="translate(2 2)" fill="#b0b7c3" opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+        <g id="customer-2" data-name="customer" transform="translate(749 1193)">
+          <text id="Customer_ID_02234-2" data-name="Customer ID#02234" transform="translate(63 40)" fill="#9da3ad" font-size="12" font-family="Sarabun-Medium, Sarabun" font-weight="500"><tspan x="0" y="0">Customer ID#02234</tspan></text>
+          <text id="Azar_Nemanli-2" data-name="Azar Nemanli" transform="translate(63 20)" fill="#1e2839" font-size="14" font-family="Sarabun-Bold, Sarabun" font-weight="700"><tspan x="0" y="0">Azar Nemanli</tspan></text>
+          <g id="group-chat_1-2" data-name="group-chat 1" transform="translate(378.484 12)">
+            <g id="Group-4" data-name="Group">
+              <path id="Vector-12" data-name="Vector" d="M0,0H26V26H0Z" fill="none" opacity="0"/>
+              <path id="Vector-13" data-name="Vector" d="M10.658,13.684V9.75A3.25,3.25,0,0,0,7.408,6.5H0V2.737A2.737,2.737,0,0,1,2.737,0H15.509a2.737,2.737,0,0,1,2.737,2.737v8.211l.018,5.072a.542.542,0,0,1-.925.385l-2.72-2.72Z" transform="translate(6.5 3.25)" fill="#005450" opacity="0.5"/>
+              <path id="Vector-14" data-name="Vector" d="M0,7.583V2.167A2.167,2.167,0,0,1,2.167,0h8.667A2.167,2.167,0,0,1,13,2.167V7.583A2.167,2.167,0,0,1,10.833,9.75H2.292L.945,11.04a.542.542,0,0,1-.916-.391V7.935A2.182,2.182,0,0,1,0,7.583ZM4.891,3.25a.542.542,0,0,0,0,1.083h5.417a.542.542,0,0,0,0-1.083Zm3.25,2.167a.542.542,0,0,0,0,1.083h2.167a.542.542,0,0,0,0-1.083Z" transform="translate(2.15 11.917)" fill="#b0b7c3" opacity="0.3"/>
+            </g>
+          </g>
+          <g id="stop_1-2" data-name="stop 1" transform="translate(423.484 12)">
+            <g id="Group-5" data-name="Group">
+              <path id="Vector-15" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+              <path id="Vector-16" data-name="Vector" d="M10,20A10,10,0,1,1,20,10,10,10,0,0,1,10,20Zm0-2a8,8,0,1,0-8-8A8,8,0,0,0,10,18ZM17.071,2.929a1,1,0,0,1,0,1.414L4.343,17.071a1,1,0,0,1-1.414-1.414L15.657,2.929A1,1,0,0,1,17.071,2.929Z" transform="translate(2 2)" fill="#b0b7c3" opacity="0.3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_401" data-name="Group 401">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="290" height="285" rx="10" transform="translate(989 652)" fill="#fff"/>
+        <g id="Card-9" data-name="Card" transform="translate(941 495)">
+          <rect id="Card-10" data-name="Card" width="244" height="160" rx="15" transform="translate(71 180)" fill="rgba(245,243,238,0.4)"/>
+          <text id="Apparment_POS" data-name="Apparment POS" transform="translate(91 317)" fill="#9da3ad" font-size="14" font-family="Sarabun-Medium, Sarabun" font-weight="500"><tspan x="0" y="0">Apparment POS</tspan></text>
+          <text id="_0_00_TL" data-name="0,00 TL" transform="translate(91 291)" fill="#1e2839" font-size="24" font-family="Sarabun-Bold, Sarabun" font-weight="700"><tspan x="0" y="0">0,00 TL</tspan></text>
+          <g id="Group_18-5" data-name="Group 18" transform="translate(91 200)">
+            <circle id="Ellipse_3-5" data-name="Ellipse 3" cx="25" cy="25" r="25" fill="#e5f6ef"/>
+            <g id="Calculator" transform="translate(12 12)">
+              <rect id="bound-13" data-name="bound" width="26" height="26" fill="none"/>
+              <rect id="Rectangle_189_Copy" data-name="Rectangle 189 Copy" width="10" height="4" transform="translate(8 4.4)" fill="#fff" opacity="0.3"/>
+              <path id="Combined_Shape-15" data-name="Combined Shape" d="M14,22H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H14a2,2,0,0,1,2,2V20A2,2,0,0,1,14,22Zm-1.428-4.4a1.1,1.1,0,1,0,1.143,1.1A1.123,1.123,0,0,0,12.571,17.6Zm-9.186,0a1.1,1.1,0,0,0,0,2.2H8.042a1.1,1.1,0,0,0,0-2.2Zm9.186-4.4a1.1,1.1,0,1,0,1.143,1.1A1.123,1.123,0,0,0,12.571,13.2ZM8,13.2a1.1,1.1,0,1,0,1.143,1.1A1.123,1.123,0,0,0,8,13.2Zm-4.571,0a1.1,1.1,0,1,0,0,2.2,1.1,1.1,0,1,0,0-2.2Zm9.143-4.4a1.1,1.1,0,1,0,1.143,1.1A1.123,1.123,0,0,0,12.571,8.8ZM8,8.8A1.1,1.1,0,1,0,9.142,9.9,1.123,1.123,0,0,0,8,8.8Zm-4.571,0a1.1,1.1,0,1,0,0,2.2,1.1,1.1,0,1,0,0-2.2ZM2.285,2.2V6.6H13.714V2.2Z" transform="translate(5 2)" fill="#38cb89"/>
+            </g>
+          </g>
+        </g>
+        <g id="Card-11" data-name="Card" transform="translate(672 670)">
+          <path id="Card-12" data-name="Card" d="M15,0H229a15,15,0,0,1,15,15V70a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V15A15,15,0,0,1,15,0Z" transform="translate(340 180)" fill="rgba(245,243,238,0.4)"/>
+          <g id="Group_18-6" data-name="Group 18" transform="translate(360 200)">
+            <circle id="Ellipse_3-6" data-name="Ellipse 3" cx="25" cy="25" r="25" fill="#ffefeb"/>
+            <g id="Wallet_1" data-name="Wallet#1" transform="translate(12 12)">
+              <rect id="bound-14" data-name="bound" width="26" height="26" fill="none"/>
+              <rect id="Rectangle_2-2" data-name="Rectangle 2" width="10" height="12" rx="2" transform="translate(2 4)" fill="#ff5630" opacity="0.3"/>
+              <path id="Combined_Shape-16" data-name="Combined Shape" d="M20,16H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H20a2,2,0,0,1,2,2V14A2,2,0,0,1,20,16ZM17.4,6a2,2,0,1,0,2,2A2,2,0,0,0,17.4,6Z" transform="translate(2 8)" fill="#ff5630"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Compiled-file" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+    <defs>
+        <style>
+            .cls-2{fill:#b0b7c3;opacity:.3}.cls-3{fill:rgba(0,84,80,.5)}
+        </style>
+    </defs>
+    <path id="Shape" d="M0 0h30v30H0z" style="fill:none"/>
+    <path id="Combined_Shape" data-name="Combined Shape" class="cls-2" d="M2.286 0h10.377L19.7 6.005v16.463c0 2.225-.025 2.381-2.286 2.381H2.286C.025 24.849 0 24.693 0 22.468V2.381C0 .157.025 0 2.286 0z" transform="translate(5.151 2.575)"/>
+    <rect id="Rectangle_41" data-name="Rectangle 41" class="cls-2" width="4.047" height="4.047" rx=".75" transform="rotate(-45 22.494 -2.553)"/>
+    <rect id="Rectangle_41_Copy" data-name="Rectangle 41 Copy" class="cls-2" width="4.047" height="4.047" rx=".75" transform="rotate(-45 26.396 -11.974)"/>
+    <rect id="Rectangle_41_Copy_3" data-name="Rectangle 41 Copy 3" class="cls-3" width="4.047" height="4.047" rx=".75" transform="rotate(-45 29.154 -5.313)"/>
+    <rect id="Rectangle_41_Copy_4" data-name="Rectangle 41 Copy 4" class="cls-3" width="4.047" height="4.047" rx=".75" transform="rotate(-45 19.735 -9.215)"/>
+</svg>

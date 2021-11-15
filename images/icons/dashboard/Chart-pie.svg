@@ -1,0 +1,5 @@
+<svg id="Chart-pie" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <rect id="bound" width="26" height="26" fill="none"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M8.732,17.938A9.009,9.009,0,0,1,0,11.186H9.859V0A9,9,0,0,1,8.732,17.938Z" transform="translate(4.252 4.062)" fill="#b0b7c3" opacity="0.3"/>
+  <path id="Combined_Shape_Copy" data-name="Combined Shape Copy" d="M7.94,8.6h0L0,7.012A8,8,0,0,1,7.94,0V8.6Z" transform="translate(4.06 4)" fill="#005450" opacity="0.5"/>
+</svg>

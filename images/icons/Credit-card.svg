@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <path style="fill:none" d="M0 0h32v32H0z"/>
+    <path data-name="Combined Shape" d="M2.643 0h21.143a2.643 2.643 0 0 1 2.643 2.643v13.215a2.643 2.643 0 0 1-2.643 2.642H2.643A2.643 2.643 0 0 1 0 15.858V2.643A2.643 2.643 0 0 1 2.643 0z" transform="translate(2.643 6.607)" style="opacity:.3;fill:#b0b7c3"/>
+    <path data-name="Rectangle 59" transform="translate(3 11)" style="fill:rgba(0,84,80,.5)" d="M0 0h26v4H0z"/>
+    <rect data-name="Rectangle 59 Copy" width="5" height="3" rx="1" transform="translate(21 18)" style="fill:#005450;opacity:.3"/>
+</svg>

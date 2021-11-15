@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29">
+    <defs>
+        <style>
+            .cls-2{fill:#b0b7c3;opacity:.3}
+        </style>
+    </defs>
+    <g id="Chart-bar_3" data-name="Chart-bar#3" transform="translate(0 -.287)">
+        <path id="bound" transform="translate(0 .287)" style="fill:none" d="M0 0h29v29H0z"/>
+        <rect id="Rectangle_62_Copy" data-name="Rectangle 62 Copy" class="cls-2" width="3" height="15" rx="1.5" transform="translate(21 5.287)"/>
+        <rect id="Rectangle_62_Copy_2" data-name="Rectangle 62 Copy 2" class="cls-2" width="3" height="9" rx="1.5" transform="translate(15 11.287)"/>
+        <path id="Path_95" data-name="Path 95" d="M2.441 19.525h18.3a1.22 1.22 0 0 1 0 2.441H1.22A1.22 1.22 0 0 1 0 20.745V1.22a1.22 1.22 0 0 1 2.441 0z" transform="translate(3.661 3.661)" style="fill:rgba(0,84,80,.5)"/>
+        <rect id="Rectangle_62_Copy_4" data-name="Rectangle 62 Copy 4" class="cls-2" width="3" height="7" rx="1.5" transform="translate(9 13.287)"/>
+    </g>
+</svg>

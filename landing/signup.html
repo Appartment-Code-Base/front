@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appartment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../css/fontawesome.min.css" rel="stylesheet">
+    <link href="../css/all.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<section class="login signup signup-main">
+    <div class="container-fluid">
+        <div class="row h-vh">
+            <div class="col-md-5 col-12 left-side bg-color d-none d-md-block">
+                <a href="#" class="navbar-brand d-inline-block">
+                    <img src="../images/appartment-logo-white.svg" class="img-fluid" alt="logo">
+                </a>
+            </div>
+            <div class="col-md-7 col-12 right-side">
+                <select class="selectpicker d-none d-md-block float-right">
+                    <option>Türkçe</option>
+                    <option>Ingilisce</option>
+                </select>
+                <div class="d-flex justify-content-between align-items-center d-md-none">
+                    <a href="#" class="navbar-brand m-0">
+                        <img src="../images/logo-appartment.svg" class="img-fluid" alt="logo">
+                    </a>
+                    <select class="main-select selectpicker">
+                        <option>TR</option>
+                        <option>ING</option>
+                    </select>
+                </div>
+                <a href="signup.html" class="back d-md-none d-inline-block"></a>
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 p-0 d-flex flex-column justify-content-start justify-content-md-center h-right">
+                    <h1 class="heading">Kayıt Ol</h1>
+                    <form action="">
+                        <label class="person form-control-label position-relative w-100">
+                            <input type="email" class="form-control" name="email" placeholder="Adınız, Soyadınız">
+                        </label>
+                        <label class="email form-control-label position-relative w-100">
+                            <input type="email" class="form-control" name="email" placeholder="E-Posta Adresiniz">
+                        </label>
+                        <label class="password form-control-label position-relative w-100">
+                            <input type="password" class="form-control" name="password" placeholder="Şifreniz">
+                            <button type="button" class="show-pass"></button>
+                        </label>
+                        <label class="password form-control-label position-relative w-100">
+                            <input type="password" class="form-control" name="password" placeholder="Şifrenizi tekrar giriniz">
+                            <button type="button" class="show-pass"></button>
+                        </label>
+                        <div class="save-password">
+                            <label class="check-button">
+                                <span>Kampaniyalar ile ilgili E-Posta almak istiyorum.</span>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="check-button">
+                                <span>Kampaniyalar ile ilgili SMS almak istiyorum.</span>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <button type="button" class="btn-effect btn w-100 text-center">GİRİŞ YAP</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="../js/slim.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-select.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

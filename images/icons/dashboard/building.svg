@@ -1,0 +1,6 @@
+<svg id="Building" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <rect id="bound" width="26" height="26" fill="none"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M6.286,21H0V2A2,2,0,0,1,2,0H14a2,2,0,0,1,2,2V21H9.715V17.579a1,1,0,0,0-1-1H7.286a1,1,0,0,0-1,1V21Zm3.856-9.948a1,1,0,0,0-1,1v1.316a1,1,0,0,0,1,1h1.429a1,1,0,0,0,1-1V12.053a1,1,0,0,0-1-1Zm-5.714,0a1,1,0,0,0-1,1v1.316a1,1,0,0,0,1,1H5.857a1,1,0,0,0,1-1V12.053a1,1,0,0,0-1-1Zm0-4.421a1,1,0,0,0-1,1V8.948a1,1,0,0,0,1,1H5.857a1,1,0,0,0,1-1V7.632a1,1,0,0,0-1-1ZM10.143,2.21a1,1,0,0,0-1,1V4.526a1,1,0,0,0,1,1h1.429a1,1,0,0,0,1-1V3.21a1,1,0,0,0-1-1Zm-5.714,0a1,1,0,0,0-1,1V4.526a1,1,0,0,0,1,1H5.857a1,1,0,0,0,1-1V3.21a1,1,0,0,0-1-1Z" transform="translate(5 2)" fill="#b0b7c3" opacity="0.3"/>
+  <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="3" height="3" rx="1" transform="translate(14.238 8.762)" fill="#fff"/>
+  <path id="Rectangle_2" data-name="Rectangle 2" d="M1.988,0H18.012A1.988,1.988,0,0,1,20,1.988v0A.012.012,0,0,1,19.988,2H.012A.012.012,0,0,1,0,1.988v0A1.988,1.988,0,0,1,1.988,0Z" transform="translate(3 23)" fill="#005450" opacity="0.5"/>
+</svg>

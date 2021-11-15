@@ -1,0 +1,15 @@
+$main-color: #2f3234;
+$text-color: #1e2839;
+$bg-color: #f8f7f4;
+$green: #005450;
+$gray-text: #9da3ad;
+
+@mixin toRem($property, $value) {
+  #{$property}: ($value / 16) + rem;
+}
+
+@import "reset";
+@import "utils";
+@import "fonts";
+@import "dashboard";
+@import "main";

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <path d="M0 0h24v24H0z" style="fill:none"/>
+    <path d="M4 8a4 4 0 1 1 4-4 4 4 0 0 1-4 4z" transform="translate(8 3)" style="fill:#b0b7c3;opacity:.3"/>
+    <path data-name="Mask Copy" d="M0 7.2C.388 2.427 4.262 0 8.983 0 13.771 0 17.7 2.293 18 7.2a.687.687 0 0 1-.751.8H.728A1.107 1.107 0 0 1 0 7.2z" transform="translate(3 13)" style="fill:rgba(0,84,80,.5)"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg data-name="Wallet#1" xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+    <path style="fill:none" d="M0 0h26v26H0z"/>
+    <rect data-name="Rectangle 2" width="10" height="12" rx="2" transform="translate(2 4)" style="opacity:.3;fill:#ff5630"/>
+    <path data-name="Combined Shape" d="M20 16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zM17.4 6a2 2 0 1 0 2 2 2 2 0 0 0-2-2z" transform="translate(2 8)" style="fill:#ff5630"/>
+</svg>

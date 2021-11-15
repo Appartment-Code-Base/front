@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appartment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../css/fontawesome.min.css" rel="stylesheet">
+    <link href="../css/all.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<section class="landing landing-dashboard dashboard products gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 p-0">
+                <div class="sidebar bg-white">
+                    <a class="navbar-brand m-0" href="index.html">
+                        <img src="../images/logo-appartment.svg" class="img-fluid" alt="logo">
+                    </a>
+                    <ul class="p-0 m-0 list-unstyled">
+                        <li>
+                            <a href="index.html" class="clipboard">Özet</a>
+                        </li>
+                        <li>
+                            <a href="persons-list.html" class="persons">Kişiler</a>
+                        </li>
+                        <li>
+                            <a href="independent-sections.html" class="envelope">Bağımsız Bölümler</a>
+                        </li>
+                        <li>
+                            <a href="firms.html" class="firms active">Firmalar</a>
+                        </li>
+                        <li>
+                            <a href="debiting.html" class="list">Toplu Borçlandırma</a>
+                        </li>
+                        <li class="nav-item dropdown static-dropdown">
+                            <a class="nav-link chart dropdown-toggle" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Finansal İşlemler</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="financial/transactions.html">Borçlandırmalar</a>
+                                <a class="dropdown-item" href="financial/collections.html">Tahsilatlar</a>
+                                <a class="dropdown-item" href="financial/expenses.html">Giderlerim</a>
+                                <a class="dropdown-item" href="financial/income.html">Gelirlerim</a>
+                                <a class="dropdown-item" href="financial/transfer.html">Hesaplar Arası Virman</a>
+                                <a class="dropdown-item" href="financial/return.html">Ödeme İadesi</a>
+                                <a class="dropdown-item" href="financial/opening.html">Açılış Fişleri</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="sad">Sayaç İşlemleri</a>
+                        </li>
+                        <li class="nav-item dropdown static-dropdown">
+                            <a class="nav-link contact-dash dropdown-toggle" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">İletişim</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="contact/send-sms.html">Sms Gönderimi</a>
+                                <a class="dropdown-item" href="contact/send-email.html">E-posta Gönderimi</a>
+                                <a class="dropdown-item" href="contact/decision-notebook.html">Karar Defteri</a>
+                                <a class="dropdown-item" href="contact/document-management.html">Doküman Yönetimi</a>
+                                <a class="dropdown-item" href="contact/feedback.html">Geri Bildirim</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown static-dropdown">
+                            <a class="nav-link notification dropdown-toggle" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tanımlar</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="definitions/block.html">Blok</a>
+                                <a class="dropdown-item" href="definitions/groups.html">Tipler / Gruplar</a>
+                                <a class="dropdown-item" href="definitions/case.html">Kasa</a>
+                                <a class="dropdown-item" href="definitions/income.html">Gelir - Gider</a>
+                                <a class="dropdown-item" href="definitions/employee.html">Personel</a>
+                                <a class="dropdown-item" href="definitions/tool.html">Araç</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="reports.html" class="chart-pie">Raporlar</a>
+                        </li>
+                        <li>
+                            <a href="settings.html" class="settings">Ayarlar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-5">
+                        <form class="search-form" action="...">
+                            <label class="search top-search form-control-label position-relative w-100">
+                                <input type="text" class="form-control border-0"
+                                       placeholder="Kişi, bağımsız bölüm veya daha fazlasını ara…">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="col-7">
+                        <nav class="navbar navbar-expand">
+                            <ul class="navbar-nav m-auto justify-content-end">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link services dropdown-toggle" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <p class="second-text d-md-block d-none">Hayatınızı Kolaylaştıran Ürünler</p>
+                                        <div class="d-flex justify-content-between flex-wrap">
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                            <a class="dropdown-item" href="products.html">
+                                                <h4>Apsiyon</h4>
+                                                <p class="second-text">Site ve rezidans yönetiminde sunduğumuz
+                                                    uçtan uca çözümlerle yönetici olmak artık çok keyifli.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item mini-dropdown dropdown">
+                                    <a class="nav-link notifications position-relative" id="navbarDropdown2"
+                                       role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="badge badge-danger"></span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                        <h3 class="inner-heading">Bildirimler</h3>
+                                        <p class="second-text notification-text d-none">Bildiriminiz
+                                            bulunmamaktadır.</p>
+                                        <div class="d-block">
+                                            <a class="dropdown-item d-flex align-items-start justify-content-between no-after pl-0"
+                                               href="#">
+                                                <div class="position-relative">
+                                                    <span class="badge badge-danger"></span>
+                                                    <img src="../images/icons/notif.svg" class="img-fluid" alt="notif">
+                                                </div>
+                                                <p class="second-text notification-text">Lorem Ipsum is simply dummy
+                                                    text of the printing and typesetting industry. Lorem Ipsum has been
+                                                    the
+                                                    industry’s
+                                                    standard dummy text ever since the 1500s,</p>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-start justify-content-between no-after pl-0"
+                                               href="#">
+                                                <div class="position-relative">
+                                                    <img src="../images/icons/notif.svg" class="img-fluid" alt="notif">
+                                                </div>
+                                                <p class="second-text notification-text">Lorem Ipsum is simply dummy
+                                                    text of the printing and typesetting industry. Lorem Ipsum has been
+                                                    the
+                                                    industry’s
+                                                    standard dummy text ever since the 1500s,</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item mini-dropdown dropdown">
+                                    <a class="nav-link mr-0 user dropdown-toggle" id="navbarDropdown1" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../images/User.svg" class="img-fluid" alt="user">
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                        <h3 class="inner-heading">Azar Nemanli</h3>
+                                        <form action="...">
+                                            <label class="search form-control-label position-relative w-100">
+                                                <input type="text" class="form-control gray-bg border-0"
+                                                       placeholder="Site Ara">
+                                            </label>
+                                        </form>
+                                        <div class="d-block">
+                                            <a class="dropdown-item d-flex justify-content-between site" href="#">
+                                                <h4 class="mb-0">Azar’s Site</h4>
+                                                <span class="btn-effect d-inline-block orange-button">Yönetİm</span>
+                                            </a>
+                                            <a class="dropdown-item settings" href="#">
+                                                <h4 class="mb-0">Profil Ayarları</h4>
+                                            </a>
+                                            <a class="dropdown-item logout" href="#">
+                                                <h4 class="mb-0">Çıkış Yap</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <section class="profile person-inner section-inner firm-inner">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-7">
+                                <div class="d-flex justify-content-between">
+                                    <a href="firms.html" class="border-0 bg-white btn go-back"><i
+                                            class="fas fa-angle-left"></i>Geri</a>
+                                    <div class="right-side-buttons">
+                                        <button type="button" class="edit border-0 download bg-white btn"
+                                                data-target=".edit-modal" data-toggle="modal">Düzenle
+                                        </button>
+                                        <button type="button" class="clipboard btn download bg-white"
+                                                data-target=".new-collection" data-toggle="modal">Borçlandır
+                                        </button>
+                                        <button type="button" class="remove btn bg-white download" data-toggle="modal"
+                                                data-target=".debt">Ödeme Yap
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="block white-block data-block">
+                                    <div class="row">
+                                        <div class="col-md-3 col-12 d-md-block d-flex align-items-center flex-column left-side">
+                                            <img src="../images/avatar.svg" class="img-fluid replace-avatar"
+                                                 alt="avatar">
+                                            <label class="btn-effect btn-gray w-100">Fotoğraf yükle
+                                                <input accept="image/*" type="file" class="load-file"
+                                                       style="opacity: 0">
+                                            </label>
+                                        </div>
+                                        <div class="col-md-9 col-12 right-side">
+                                            <h2 class="block-heading">Azar Nemanli</h2>
+                                            <ul class="list-unstyled p-0 m-0">
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">Vergi No / T.C. Kimlik Numarası:</span>
+                                                    <span class="main-text-list">AZE18012121</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">Yetkili Kişi:</span>
+                                                    <span class="main-text-list">Azar Nemanli</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">İş Telefonu:</span>
+                                                    <span class="d-flex main-text-list align-items-center">994501019921</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">Cep Telefonu:</span>
+                                                    <span class="d-flex main-text-list align-items-center">994501019921</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">E-Posta Adresi:</span>
+                                                    <span class="main-text-list">azar@nemanli.com</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">Vergi Dairesi:</span>
+                                                    <span class="main-text-list">-</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">IBAN / Hesap Adı:</span>
+                                                    <span class="main-text-list">-</span>
+                                                </li>
+                                                <li class="d-flex justify-content-between">
+                                                    <span class="second-text">Adresi:</span>
+                                                    <span class="main-text-list">151 Neftçiler ave. Baku, Azerbaijan</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 pl-5">
+                                <div class="block white-block summary">
+                                    <div class="d-flex justify-content-between align-items-center mb-20">
+                                        <h4 class="block-heading">Notlar</h4>
+                                        <button type="button" data-target=".new-note-modal" data-toggle="modal"
+                                                class="btn btn-effect btn-gray text-color add-section new-not">Yeni not
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <span class="chat-ic bg-transparent border-0 p-0"></span>
+                                        <p class="second-text">Gösterilecek not yok</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="block persons white-block block-tabs p-0 table-list">
+                                    <nav>
+                                        <div class="nav nav-tabs justify-content-start" id="nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active second-text" id="nav-home-tab"
+                                               data-toggle="tab"
+                                               href="#nav-home" role="tab" aria-controls="nav-home"
+                                               aria-selected="true">Hesap Ekstresi</a>
+                                            <div class="position-absolute button-list">
+                                                <button type="button"
+                                                        data-toggle="modal" data-target=".account-extra"
+                                                        class="btn btn-effect bg-white download sending"></button>
+                                                <button type="button"
+                                                        class="btn btn-effect bg-white mr-0 download download-ic"></button>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                             aria-labelledby="nav-home-tab">
+                                            <div class="d-flex">
+                                                <div class="d-flex flex-column block count-block green-text">
+                                                    <span>Genel Toplam</span>
+                                                    <span>11.222,00 TL (B)</span>
+                                                </div>
+                                                <div class="d-flex flex-column block count-block">
+                                                    <span>Aidat</span>
+                                                    <span>111,00 TL (B)</span>
+                                                </div>
+                                                <div class="d-flex flex-column block count-block">
+                                                    <span>Elektrik</span>
+                                                    <span>11.111,00 TL (B)</span>
+                                                </div>
+                                            </div>
+                                            <div class="block-table">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>
+                                                            <label class="check-button form-control-label">
+                                                                <input type="checkbox" class="selectAll">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </th>
+                                                        <th scope="col">Hareket Tipi</th>
+                                                        <th scope="col">Belge No</th>
+                                                        <th scope="col">Tarih</th>
+                                                        <th scope="col">Gider Türü</th>
+                                                        <th scope="col">Durumu</th>
+                                                        <th scope="col">Tutar</th>
+                                                        <th scope="col">Açıklama</th>
+                                                        <th scope="col">İşlem</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <label class="check-button form-control-label">
+                                                                <input type="checkbox">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </td>
+                                                        <td>Gelir Faturası</td>
+                                                        <td>2121</td>
+                                                        <td>05.08.21</td>
+                                                        <td>Aidat</td>
+                                                        <td>Tahsil Edilmedi</td>
+                                                        <td>111,00 TL</td>
+                                                        <td>-</td>
+                                                        <td>
+                                                            <div class="nav-item mini-dropdown dropdown">
+                                                                <a class="nav-link mr-0 user dropdown-toggle"
+                                                                   role="button"
+                                                                   data-toggle="dropdown" aria-haspopup="true"
+                                                                   aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu block bg-white">
+                                                                    <div class="d-block">
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">Borçlandır</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">Tahsil et</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">E-Posta Gönder</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">SMS Gönder</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0 red">Sil</h4>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <label class="check-button form-control-label">
+                                                                <input type="checkbox">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </td>
+                                                        <td>Gelir Faturası</td>
+                                                        <td>2121</td>
+                                                        <td>05.08.21</td>
+                                                        <td>Aidat</td>
+                                                        <td>Tahsil Edilmedi</td>
+                                                        <td>111,00 TL</td>
+                                                        <td>-</td>
+                                                        <td>
+                                                            <div class="nav-item mini-dropdown dropdown">
+                                                                <a class="nav-link mr-0 user dropdown-toggle"
+                                                                   role="button"
+                                                                   data-toggle="dropdown" aria-haspopup="true"
+                                                                   aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu block bg-white">
+                                                                    <div class="d-block">
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">Borçlandır</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">Tahsil et</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">E-Posta Gönder</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0">SMS Gönder</h4>
+                                                                        </a>
+                                                                        <a class="dropdown-item" href="#">
+                                                                            <h4 class="mb-0 red">Sil</h4>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade add-sec" id="new-site" tabindex="-1" role="dialog"
+         aria-labelledby="new-siteLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title" id="new-siteLabel">Bağımsız bölüm ekle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <form action="..." class="d-flex flex-wrap justify-content-between">
+                        <label class="form-control-label position-relative mb-0">
+                            <select class="selectpicker form-control" title="Bağımsız Bölüm Seçiniz">
+                                <option>No</option>
+                                <option>Yes</option>
+                            </select>
+                        </label>
+                        <label class="form-control-label position-relative mb-0">
+                            <select class="selectpicker form-control" title="Kişi Tipi Seçiniz">
+                                <option>No</option>
+                                <option>Yes</option>
+                            </select>
+                        </label>
+                        <div class="text-right w-100">
+                            <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">Kaydet <i
+                                    class="fa fa-angle-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail new-note-modal" tabindex="-1" role="dialog"
+         aria-labelledby="new-siteLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Yeni not</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <form action="..." class="d-flex flex-wrap justify-content-between">
+                        <label class="form-control-label position-relative w-100 mb-0">
+                            <input type="text" class="form-control inputText" name="note"
+                                   placeholder=" ">
+                            <span class="inpt">Notunuz</span>
+                        </label>
+                        <div class="d-flex justify-content-between w-100 bottom-button-list">
+                            <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                    aria-label="Close">Cancel
+                            </button>
+                            <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                Kaydet <i
+                                    class="fa fa-angle-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail send privacy-modal" tabindex="-1" role="dialog"
+         aria-labelledby="privacyLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Sms gönder</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <h4 class="inner-heading border-bottom">Azar Nemanli</h4>
+                    <div class="second-part">
+                        <form action="..." class="d-flex flex-wrap justify-content-between">
+                            <label class="form-control-label position-relative w-100">
+                                <select class="selectpicker form-control" title="Gönderilecek Şablon">
+                                    <option>Tahsilat Girişi</option>
+                                    <option>Tahsilat Girişi</option>
+                                </select>
+                            </label>
+                            <label class="form-control-label textarea-label position-relative w-100">
+                                <textarea type="text" class="form-control inputText" name="date"
+                                          placeholder=" "></textarea>
+                                <span class="inpt">SMS İçeriği</span>
+                            </label>
+                            <div class="d-flex flex-wrap shortcut-list">
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Adı Soyadı
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Adres.">Adres
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Tarih.">Tarih
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Bakiye
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Site Adı
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Ödeme linki
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Borcu
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Aidat Tutarı
+                                </button>
+                                <button type="button" class="btn-effect btn-gray shortcut" data-text="Teşekkürler! Ödemeniz hesabınıza işlendi. Mevcut bakiyeniz: [Bakiye].
+Bakiyenizin detayını incelemek için websitenizi ziyaret edebilirsiniz.">Bakiye Detaylı
+                                </button>
+                            </div>
+                            <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                        aria-label="Close">Cancel
+                                </button>
+                                <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">Kaydet
+                                    <i
+                                            class="fa fa-angle-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail send-sms privacy-modal" tabindex="-1" role="dialog"
+         aria-labelledby="privacyLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Sms gönder</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <h4 class="inner-heading border-bottom">Azar Nemanli</h4>
+                    <div class="second-part">
+                        <form action="..." class="d-flex flex-wrap justify-content-between">
+                            <label class="form-control-label position-relative w-100 mb-0">
+                                <select class="selectpicker form-control" title="Gönderilecek Şablon">
+                                    <option>Tahsilat Girişi</option>
+                                    <option>Tahsilat Girişi</option>
+                                </select>
+                            </label>
+                            <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                        aria-label="Close">Cancel
+                                </button>
+                                <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">Kaydet
+                                    <i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail add-sec account-extra" tabindex="-1" role="dialog"
+         aria-labelledby="new-siteLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Hesap Ekstresi Gönder</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <form action="..." class="d-flex flex-wrap justify-content-between">
+                        <label class="form-control-label position-relative w-48 mb-0">
+                            <input type="email" class="form-control inputText" name="name" placeholder=" ">
+                            <span class="inpt">E-Posta Adresi</span>
+                        </label>
+                        <label class="form-control-label position-relative w-48 mb-0">
+                            <select class="selectpicker form-control" title="Ekstre aralığı">
+                                <option>No</option>
+                                <option>Yes</option>
+                            </select>
+                        </label>
+                        <div class="d-flex justify-content-between w-100 bottom-button-list">
+                            <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                    aria-label="Close">Cancel
+                            </button>
+                            <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">Kaydet
+                                <i class="fa fa-angle-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail edit-modal default-modal" tabindex="-1" role="dialog"
+         aria-labelledby="new-siteLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Kİşİ GÜNCELLE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block block-tabs bg-white">
+                    <nav>
+                        <div class="nav nav-tabs" role="tablist">
+                            <a class="nav-item nav-link active second-text" id="nav-home-tab1" data-toggle="tab"
+                               href="#nav-home1" role="tab" aria-controls="nav-home1" aria-selected="true">Kişi
+                                Bilgileri</a>
+                            <a class="nav-item nav-link second-text" id="nav-profile-tab1" data-toggle="tab"
+                               href="#nav-profile1" role="tab" aria-controls="nav-profile1" aria-selected="false">Açılış
+                                Bakiye Girişi</a>
+                            <a class="nav-item nav-link second-text" id="nav-contact-tab1" data-toggle="tab"
+                               href="#nav-contact1" role="tab" aria-controls="nav-contact1" aria-selected="false">Gecikme
+                                Tazminatı</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent1">
+                        <div class="tab-pane fade show active" id="nav-home1" role="tabpanel"
+                             aria-labelledby="nav-home-tab1">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="name" value="Azar Nemanli"
+                                           placeholder=" ">
+                                    <span class="inpt">Adı, Soyadı</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="number" value="AZE10012211"
+                                           placeholder=" ">
+                                    <span class="inpt">TC kimlik / Vergi No / Pasaport No</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="tel" class="form-control inputText" name="phone-number"
+                                           placeholder=" ">
+                                    <span class="inpt">Telefon numarası (Varsayılan)</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="tel" class="form-control inputText" name="number-sec" placeholder=" ">
+                                    <span class="inpt">Telefon numarası (İkincil)</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="email" class="form-control inputText" name="email" placeholder=" ">
+                                    <span class="inpt">E-posta (Varsayılan)</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="car-plack" placeholder=" ">
+                                    <span class="inpt">Araç Plakası</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="job" placeholder=" ">
+                                    <span class="inpt">Meslek</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Öğrenim Durumu">
+                                        <option>Ali</option>
+                                        <option>Orta</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative mb-0">
+                                    <select class="selectpicker form-control" title="İletişim Dili">
+                                        <option>AZ</option>
+                                        <option>En</option>
+                                        <option>RU</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative mb-0">
+                                    <select class="selectpicker form-control" title="Cinsiyet">
+                                        <option>Erkek</option>
+                                        <option>Kadin</option>
+                                    </select>
+                                </label>
+                                <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                    <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                            aria-label="Close">Cancel
+                                    </button>
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                        Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab1">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateFrom" placeholder=" ">
+                                    <span class="inpt">Açılış tarihi</span>
+                                </label>
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateTo" placeholder=" ">
+                                    <span class="inpt">Son ödeme tarihi</span>
+                                </label>
+                                <label class="form-control-label position-relative money">
+                                    <input type="text" class="form-control inputText" name="money" placeholder=" ">
+                                    <span class="inpt">Açılış bakiyesi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative mb-0">
+                                    <input type="text" class="form-control inputText" name="block" placeholder=" ">
+                                    <span class="inpt">Blok</span>
+                                </label>
+                                <label class="form-control-label position-relative mb-0">
+                                    <select class="selectpicker form-control" title="Açılış Borç Türü">
+                                        <option>Bilmirem</option>
+                                        <option>Orta</option>
+                                    </select>
+                                </label>
+                                <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                    <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                            aria-label="Close">Cancel
+                                    </button>
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                        Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab1">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateFrom" placeholder=" ">
+                                    <span class="inpt">Tazminat Başlangıç Tarihi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Tazminat Hesap Tarihi">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="compensation"
+                                           placeholder=" ">
+                                    <span class="inpt">Tazminat Uygulama Şekli</span>
+                                </label>
+                                <label class="form-control-label position-relative money">
+                                    <input type="text" class="form-control inputText" name="money" placeholder=" ">
+                                    <span class="inpt">Tutar</span>
+                                </label>
+                                <label class="form-control-label position-relative mb-0">
+                                    <input type="text" class="form-control inputText" name="percent" placeholder=" ">
+                                    <span class="inpt">Tazminat Yüzdesi</span>
+                                </label>
+                                <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                    <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                            aria-label="Close">Cancel
+                                    </button>
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                        Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail new-collection default-modal appended-table" tabindex="-1"
+         role="dialog"
+         aria-labelledby="privacyLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Yeni Gider Hareketi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>
+                                <label class="check-button form-control-label">
+                                    <input type="checkbox" class="selectAll">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </th>
+                            <th scope="col">Hareket Tipi</th>
+                            <th scope="col">Belge No</th>
+                            <th scope="col">Tarih</th>
+                            <th scope="col">Firma</th>
+                            <th scope="col">Gider Türü</th>
+                            <th scope="col">Durumu</th>
+                            <th scope="col">Kasa</th>
+                            <th scope="col">Tutar</th>
+                            <th scope="col">Açıklama</th>
+                            <th scope="col">İşlem</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <label class="check-button form-control-label">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                            <td>Gelir Faturası</td>
+                            <td><input type="text" class="form-control border-0 p-0" placeholder="Giriniz"></td>
+                            <td>
+                                <label class="date position-relative">
+                                    <input type="text" class="form-control border-0 p-0 datepicker"
+                                           data-date-format="dd.mm.yyyy" placeholder="Tarih Giriniz">
+                                </label>
+                            </td>
+                            <td>112</td>
+                            <td><input type="text" class="form-control border-0 p-0" placeholder="Seçiniz"></td>
+                            <td><label class="form-control-label position-relative mb-0 w-100">
+                                <select class="selectpicker form-control border-0" title="Seçiniz">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </label></td>
+                            <td><label class="form-control-label position-relative mb-0 w-100">
+                                <select class="selectpicker form-control border-0" title="Seçiniz">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </label></td>
+                            <td>0.00 TL</td>
+                            <td><input type="text" class="form-control border-0 p-0" placeholder="Ekle"></td>
+                            <td>
+                                <div class="nav-item mini-dropdown dropdown">
+                                    <a class="nav-link mr-0 user dropdown-toggle"
+                                       role="button"
+                                       data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu block bg-white">
+                                        <div class="d-block">
+                                            <a class="dropdown-item" href="#">
+                                                <h4 class="mb-0">Borçlandır</h4>
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <h4 class="mb-0">Tahsil et</h4>
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <h4 class="mb-0">E-Posta Gönder</h4>
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <h4 class="mb-0">SMS Gönder</h4>
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <h4 class="mb-0 red">Sil</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-between w-100">
+                        <button type="button" class="btn-effect mt-0 w-auto add-new-tr">
+                            + Yeni Satır</button>
+                       <div class="d-flex align-items-center justify-content-between bottom-button-list">
+                           <button type="button" class="btn-effect btn-gray mt-0 mr-3 cancel" data-dismiss="modal"
+                                   aria-label="Close">Cancel
+                           </button>
+                           <button type="button" class="btn-effect mt-0" data-dismiss="modal" aria-label="Close">
+                               Kaydet <i
+                                   class="fa fa-angle-right"></i></button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail debt default-modal inner" tabindex="-1" role="dialog"
+         aria-labelledby="new-siteLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Borç Girişi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block block-tabs bg-white">
+                    <nav>
+                        <div class="nav nav-tabs justify-content-start" role="tablist">
+                            <a class="nav-item nav-link active second-text" id="nav-home-tab2" data-toggle="tab"
+                               href="#nav-home2" role="tab" aria-controls="nav-home2" aria-selected="true">Ön
+                                Bilgileri</a>
+                            <a class="nav-item nav-link second-text" id="nav-profile-tab2" data-toggle="tab"
+                               href="#nav-profile2" role="tab" aria-controls="nav-profile2" aria-selected="false">Gecikme
+                                Tazminatı Uygula</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent2">
+                        <div class="tab-pane fade show active" id="nav-home2" role="tabpanel"
+                             aria-labelledby="nav-home-tab2">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="name" placeholder=" ">
+                                    <span class="inpt">Kişi</span>
+                                </label>
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="date" value="11.08.2021"
+                                           placeholder=" ">
+                                    <span class="inpt">Tarih</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Bağımsız Bölüm">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateTo" value="11.08.2021"
+                                           placeholder=" ">
+                                    <span class="inpt">Son Ödeme Tarihi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Borçlandırma Türü">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative money">
+                                    <input type="text" class="form-control inputText" name="money" placeholder=" ">
+                                    <span class="inpt">Tutar</span>
+                                </label>
+                                <label class="form-control-label position-relative w-100 mb-0">
+                                    <input type="text" class="form-control inputText" name="explanation"
+                                           placeholder=" ">
+                                    <span class="inpt">Açıklama</span>
+                                </label>
+                                <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                    <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                            aria-label="Close">Cancel
+                                    </button>
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                        Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab2">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="percent" placeholder=" ">
+                                    <span class="inpt">Gecikme Tazminat Yüzdesi</span>
+                                </label>
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateFrom" value="11.08.2021"
+                                           placeholder=" ">
+                                    <span class="inpt">Başlangıç Tarihi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Tazminat Uygulama Şekli">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Tazminat Hesap Tarihi">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative mb-0">
+                                    <input type="text" class="form-control inputText" name="text" placeholder=" ">
+                                    <span class="inpt">Açıklama</span>
+                                </label>
+                                <label class="form-control-label check-block position-relative mb-0">
+                                    <label class="check-button">
+                                        <span>Makbuz Göster/Yazdır</span>
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </label>
+                                <div class="d-flex justify-content-between w-100 bottom-button-list">
+                                    <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                            aria-label="Close">Cancel
+                                    </button>
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                        Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="../js/slim.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-datepicker.min.js"></script>
+<script src="../js/bootstrap-select.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

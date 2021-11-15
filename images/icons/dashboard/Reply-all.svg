@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <path style="fill:none" d="M0 0h23.711v24H0z"/>
+    <path data-name="Shape Copy" d="m-.36-.943 9 8.165-9 8.335z" transform="translate(15.359 3.943)" style="fill:#b0b7c3;opacity:.3"/>
+    <path d="M0 14.791a8.851 8.851 0 0 1 2.383-6.626C4.1 6.437 6.674 6.137 9.75 6V0l9 8.165-9 8.335v-6a16.561 16.561 0 0 0-4.608.58C2.25 12 .75 16.5.75 16.5H0v-1.709z" transform="translate(1.539 3)" style="fill:#005450;opacity:.5"/>
+</svg>

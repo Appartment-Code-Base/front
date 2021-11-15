@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+    <path style="fill:none" d="M0 0h30v30H0z"/>
+    <path data-name="Combined Shape" d="M0 20.975h24.676V3.7H9.87L6.169 0H0z" transform="translate(2.468 5.324)" style="fill:#b0b7c3;opacity:.3"/>
+    <path data-name="Combined Shape" d="M5.761 7.506 3.851 5.6 1.94 7.506a1 1 0 0 1-1.414 0L.2 7.176a1 1 0 0 1 0-1.415l1.91-1.91L.2 1.94A1 1 0 0 1 .2.526L.526.2A1 1 0 0 1 1.94.2l1.91 1.91L5.761.2a1 1 0 0 1 1.414 0l.331.33a1 1 0 0 1 0 1.414L5.6 3.851l1.91 1.91a1 1 0 0 1 0 1.415l-.331.33a1 1 0 0 1-1.414 0z" transform="translate(10.955 13.811)" style="fill:rgba(0,84,80,.5)"/>
+</svg>

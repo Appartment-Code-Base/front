@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <path style="fill:none" d="M0 0h32v32H0z"/>
+    <path d="M0 7.936S3.246 0 11.9 0c6.493 0 11.9 7.936 11.9 7.936s-5.4 7.935-11.9 7.935C3.246 15.871 0 7.936 0 7.936z" transform="translate(3.968 7.936)" style="fill:#ffe293"/>
+    <path d="M3.968 7.936a3.968 3.968 0 1 1 3.968-3.968 3.968 3.968 0 0 1-3.968 3.968z" transform="translate(11.903 11.903)" style="fill:#fff"/>
+</svg>

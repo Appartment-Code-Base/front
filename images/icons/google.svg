@@ -1,0 +1,30 @@
+<svg id="Logo_Google" data-name="Logo Google" xmlns="http://www.w3.org/2000/svg" width="17" height="17">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="a" d="M16.8 6.955H8.7v3.284h4.665c-.435 2.086-2.253 3.284-4.665 3.284A5.072 5.072 0 0 1 3.558 8.5 5.14 5.14 0 0 1 11.9 4.6l2.53-2.473A8.774 8.774 0 0 0 8.7 0 8.576 8.576 0 0 0 0 8.5 8.576 8.576 0 0 0 8.7 17 8.109 8.109 0 0 0 17 8.5a6.9 6.9 0 0 0-.2-1.545z"/>
+        </clipPath>
+        <style>
+            .cls-1{clip-path:url(#clip-path)}
+        </style>
+    </defs>
+    <g id="Clipped">
+        <g id="a-5" data-name="a" class="cls-1">
+            <path id="Path" d="M0 10.045V0l6.721 5.023z" transform="translate(-.791 3.477)" style="fill:#fbbc05"/>
+        </g>
+    </g>
+    <g id="Clipped-2" data-name="Clipped">
+        <g id="a-6" data-name="a" class="cls-1">
+            <path id="Path-2" data-name="Path" d="m0 4.25 6.721 5.023 2.767-2.357 9.488-1.507V0H0z" transform="translate(-.791 -.773)" style="fill:#ea4335"/>
+        </g>
+    </g>
+    <g id="Clipped-3" data-name="Clipped">
+        <g id="a-7" data-name="a" class="cls-1">
+            <path id="Path-3" data-name="Path" d="m0 14.3 11.86-8.891 3.123.386L18.977 0v18.545H0z" transform="translate(-.791 -.773)" style="fill:#34a853"/>
+        </g>
+    </g>
+    <g id="Clipped-4" data-name="Clipped">
+        <g id="a-8" data-name="a" class="cls-1">
+            <path id="Path-4" data-name="Path" d="M13.837 14.3 1.581 5.023 0 3.864 13.837 0z" transform="translate(4.349 3.477)" style="fill:#4285f4"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+    <path d="M0 0h30v30H0z" style="fill:none"/>
+    <path data-name="Combined Shape Copy" d="M16.647 25.209H2.353C0 25.209 0 25.027 0 22.793V2.416C0 .182 0 0 2.353 0h9.409L19 6.092v16.7c0 2.235 0 2.417-2.353 2.417zm-10.58-6.3a1 1 0 0 0-1 1v.521a1 1 0 0 0 1 1H10.4a1 1 0 0 0 1-1v-.521a1 1 0 0 0-1-1zm0-5.042a1 1 0 0 0-1 1v.521a1 1 0 0 0 1 1h9.4a1 1 0 0 0 1-1v-.521a1 1 0 0 0-1-1z" transform="translate(4 .791)" style="fill:#b0b7c3;opacity:.3"/>
+    <path data-name="Combined Shape" d="M18.563 25.208H2.438C0 25.208 0 25.026 0 22.793V2.417C0 .182 0 0 2.438 0H13.5L21 6.092v16.7c0 2.234 0 2.416-2.437 2.416zM3.625 16.385a1 1 0 0 0-1 1v.521a1 1 0 0 0 1 1h4.563a1 1 0 0 0 1-1v-.521a1 1 0 0 0-1-1zm0-5.042a1 1 0 0 0-1 1v.52a1 1 0 0 0 1 1h9.814a1 1 0 0 0 1-1v-.52a1 1 0 0 0-1-1z" transform="translate(5.208 3.791)" style="fill:rgba(0,84,80,.5)"/>
+</svg>

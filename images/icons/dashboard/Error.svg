@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path style="fill:none" d="M0 0h24v24H0z"/>
+    <circle data-name="Oval 5" cx="10" cy="10" r="10" transform="translate(2 2)" style="opacity:.3;fill:#ff5630"/>
+    <path data-name="Combined Shape" d="m14.864 16.278-2.828-2.828-2.829 2.828a1 1 0 1 1-1.414-1.414l2.829-2.829-2.829-2.828a1 1 0 0 1 1.414-1.414l2.829 2.829 2.829-2.829a1 1 0 1 1 1.414 1.414l-2.829 2.829 2.829 2.829a1 1 0 1 1-1.414 1.414z" style="fill:#ff5630"/>
+</svg>
