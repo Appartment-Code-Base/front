@@ -249,7 +249,8 @@ body {
   }
 
   .main {
-    padding-bottom: 48px;
+    @include toRem(padding-bottom, 48);
+    @include toRem(padding-top, 48);
 
     p {
       @include toRem(margin-bottom, 24);

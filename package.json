@@ -1,0 +1,24 @@
+{
+  "name": "appartment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w css/sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Appartment-Code-Base/front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Appartment-Code-Base/front/issues"
+  },
+  "homepage": "https://github.com/Appartment-Code-Base/front#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
