@@ -1,5 +1,9 @@
 body {
-  color: $text-color
+  color: $text-color;
+
+  p {
+    font-weight: 300;
+  }
 }
 
 .login {
@@ -26,7 +30,37 @@ body {
 
     a {
       color: #005450;
-      text-decoration: underline;
+      text-decoration: none;
+      position: relative;
+      transition: color ease 0.3s;
+
+      &:after, &:before {
+        content: '';
+        position: absolute;
+        background-color: #005450;
+        z-index: 0;
+        height: 2px;
+        width: 100%;
+        bottom: -4px;
+        left: 0;
+      }
+
+      &:before {
+        width: 0;
+        transition: width ease 0.4s;
+      }
+
+      &:hover {
+        &:after {
+          left: 100%;
+          width: 0;
+          transition: all ease 0.2s;
+        }
+
+        &:before {
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -39,6 +73,13 @@ body {
       margin-top: 40px;
     }
   }
+
+  .form-control-label {
+    .inpt {
+      @include toRem(padding-left, 54);
+      @include toRem(padding-top, 3)
+    }
+  }
 }
 
 .form-control-label {
@@ -48,6 +89,7 @@ body {
     .form-control {
       padding-left: 50px;
     }
+
     .num-country {
       position: absolute;
       left: 15px;
@@ -151,6 +193,27 @@ body {
       .main-select {
         margin-right: 40px;
       }
+
+      ul {
+        li {
+          a.nav-link {
+            &:before {
+              content: '';
+              width: 0;
+              height: 2px;
+              background: #0b2e13;
+              position: absolute;
+              bottom: 5px;
+            }
+
+            &:hover {
+              &:before {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
     }
 
     .navbar-nav {
@@ -178,19 +241,26 @@ body {
           margin-top: 30px;
           border: solid 1px rgba(0, 84, 80, 0.03);
           border-radius: 10px;
+          max-width: 1140px;
+          width: 100%;
+          left: 50%;
+          transform: translateX(-50%);
 
           .second-text {
             @include toRem(font-size, 16);
           }
 
           .dropdown-item {
+            @include toRem(padding, 8);
             @include toRem(padding-left, 53);
+            @include toRem(margin-bottom, 8);
             padding-top: 0;
             padding-right: 0;
             position: relative;
             width: 48%;
             display: inline-block;
             white-space: normal;
+            transition: ease-in .2s;
 
             &:active {
               color: $text-color;
@@ -200,17 +270,18 @@ body {
             &:after {
               content: '';
               position: absolute;
-              left: 0;
-              top: 0;
+              left: 28px;
+              top: 8px;
               width: 38px;
               height: 38px;
               border-radius: 5px;
-              background-color: rgba(255, 197, 41, 0.1);
+              background-color: rgba(255, 197, 41, 1);
             }
 
             h4 {
               @include toRem(font-size, 16);
               font-weight: 600;
+              margin-top: 5px;
             }
 
             .second-text {
@@ -219,6 +290,8 @@ body {
 
             &:hover {
               background: none;
+              border-radius: 5px;
+              background-color: #fbfaf8;
             }
           }
         }
@@ -278,6 +351,12 @@ body {
     padding: 80px 0 120px;
 
     .block {
+      transition: ease-in .2s;
+
+      &:hover {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04);
+      }
+
       .round {
         margin-right: auto;
         margin-left: auto;
@@ -301,10 +380,21 @@ body {
     }
   }
 
-  .advantage {
+  &.blog {
+    .who-am-i {
+      .rounded-button {
+        overflow: hidden;
 
+        span {
+          left: 40px;
+        }
+      }
+    }
+  }
+
+  .advantage {
     .col-12 {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
 
     h2 {
@@ -320,7 +410,12 @@ body {
     }
 
     .block {
-      margin-bottom: 15px;
+      padding: 32px 24px;
+
+      p {
+        margin-bottom: 0;
+        @include toRem(font-size, 15)
+      }
     }
 
     .blank {
@@ -348,16 +443,38 @@ body {
     }
 
     .round {
-      margin: 55px 0 64px;
+      margin: 0 24px 0 0;
+      width: 96px;
+      height: 96px;
     }
   }
 
   &.landing-manager {
+    .main {
+      @include toRem(padding-bottom, 100)
+    }
+
     .advantage {
-      .blank {
+      .eye {
         .round {
           &:after {
             content: url("../images/icons/witness.svg");
+          }
+        }
+      }
+
+      .audit {
+        .round {
+          &:after {
+            content: url("../images/icons/audit.svg");
+          }
+        }
+      }
+
+      .protection {
+        .round {
+          &:after {
+            content: url("../images/icons/protection.svg");
           }
         }
       }
@@ -370,7 +487,7 @@ body {
         }
       }
 
-      .tech-support {
+      .reservation {
         .round {
           &:after {
             content: url("../images/icons/online-booking.svg");
@@ -378,10 +495,70 @@ body {
         }
       }
 
-      .responsive {
+      .moneys {
+        .round {
+          &:after {
+            content: url("../images/icons/moneys.svg");
+          }
+        }
+      }
+
+      .chat-ic {
         .round {
           &:after {
             content: url("../images/icons/feedback.svg");
+          }
+        }
+      }
+
+      .rocket {
+        .round {
+          &:after {
+            content: url("../images/icons/rocket.svg");
+          }
+        }
+      }
+
+      &.for-company {
+        .round {
+          background: transparent;
+          width: 49px;
+          height: 49px;
+        }
+
+        .crm {
+          .round:after {
+            content: url("../images/icons/crm.svg");
+          }
+        }
+
+        .cashless {
+          .round:after {
+            content: url("../images/icons/cashless-payment.svg");
+          }
+        }
+
+        .mail {
+          .round:after {
+            content: url("../images/icons/mail.svg");
+          }
+        }
+
+        .backup {
+          .round:after {
+            content: url("../images/icons/backup.svg");
+          }
+        }
+
+        .accounting {
+          .round:after {
+            content: url("../images/icons/accounting.svg");
+          }
+        }
+
+        .training {
+          .round:after {
+            content: url("../images/icons/training.svg");
           }
         }
       }
@@ -394,6 +571,12 @@ body {
 
   &.landing-dashboard {
     min-height: 100vh;
+
+    .navbar .navbar-nav .dropdown .dropdown-menu {
+      right: 0;
+      left: auto;
+      transform: unset;
+    }
 
     .search {
       @include toRem(margin-bottom, 11);
@@ -419,7 +602,6 @@ body {
 
         .dropdown-menu {
           right: 0;
-          left: auto;
           min-width: 281px;
           box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
           padding: 20px;
@@ -650,14 +832,20 @@ body {
     div.btn-effect {
       border-radius: 15px;
       padding: 65px 14px;
+      background: $green !important;
 
       .btn-effect {
         height: 45px;
-        padding: 12px 36px;
+        padding: 11px 36px;
         border-radius: 5px;
         background-color: #ffc776;
+        transition: ease all .5s;
         text-decoration: none;
         font-weight: 600;
+
+        &:hover {
+          background-color: #fdb64e;
+        }
       }
     }
 
@@ -800,10 +988,6 @@ body {
 
     .masonry {
       .item {
-        &:first-child {
-          padding-right: 8px;
-        }
-
         &:first-child, &:last-child {
           .block {
             &:first-child {
@@ -817,8 +1001,6 @@ body {
         }
 
         &:nth-child(2) {
-          padding-right: 8px;
-
           .block {
             &:last-child {
               height: 256px;
@@ -835,6 +1017,11 @@ body {
           height: 100%;
           overflow: hidden;
           @include toRem(margin-bottom, 15);
+          transition: ease-in .2s;
+
+          &:hover {
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04);
+          }
 
           img {
             width: 100%;
@@ -953,6 +1140,15 @@ body {
         flex-direction: column;
         justify-content: space-between;
         overflow: hidden;
+         img {
+           transition: ease-in-out .3s;
+         }
+
+        &:hover {
+          img {
+            transform: scale(1.2);
+          }
+        }
 
         .img-fluid {
           height: 230px;
@@ -1126,9 +1322,17 @@ body {
           background: #f5f3ee;
           width: 80px;
           height: 80px;
+          transition: ease-in .2s;
 
           &:after {
-            content: url("../images/icons/Play.svg");
+            content: url("../images/icons/play-ic.svg");
+
+          }
+
+          &:hover {
+            &:after {
+              content: url("../images/icons/play-bt.svg");
+            }
           }
 
           &:before {
@@ -1156,24 +1360,47 @@ body {
   }
 }
 
-footer {
-  padding: 70px 55px;
-
-  .logo {
-    @include toRem(height, 34);
-    @include toRem(margin-bottom, 40);
-  }
-
+footer, .navbar .menu {
   a {
     @include toRem(font-size, 16);
     line-height: 1.88;
     color: $text-color;
-    transition: ease-in .2s;
+    transition: ease-in .3s;
+    position: relative;
 
     &:hover {
       text-decoration: none;
       color: $green;
+
+      &:before {
+        width: 100%;
+        transition: ease-in .3s;
+      }
     }
+  }
+}
+
+footer {
+  padding: 70px 55px;
+
+  ul {
+    li {
+      a {
+        &:before {
+          content: '';
+          width: 0;
+          height: 2px;
+          background: #0b2e13;
+          position: absolute;
+          bottom: -5px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    @include toRem(height, 34);
+    @include toRem(margin-bottom, 40);
   }
 
   .second-heading {
@@ -1240,6 +1467,7 @@ footer {
   }
 }
 
+
 .replace-avatar {
   width: 155px;
   height: 158px;
@@ -1253,7 +1481,7 @@ footer {
     padding: 0 !important;
 
     .border-bottom {
-      border-bottom: 1px solid #f2f2f2;
+      border-bottom: 1px solid #f2f2f2 !important;
     }
 
     .inner-heading {
@@ -1346,6 +1574,15 @@ footer {
       display: flex;
 
       .block {
+        img {
+          transition: ease-in-out .2s;
+        }
+
+        &:hover {
+          img {
+            transform: scale(1.2);
+          }
+        }
         &:nth-child(2) {
           &:after {
             content: '';
@@ -1396,7 +1633,7 @@ footer {
 
       .bootstrap-select {
         .btn-light {
-          margin: 32px 0;
+          margin: 32px 0 0;
           width: 121px;
           height: 43px;
           background-color: $bg-color;
@@ -1408,6 +1645,10 @@ footer {
         width: 100%;
         height: 56px;
         @include toRem(margin-bottom, 16);
+
+        &.button-hover {
+          margin-top: 32px;
+        }
       }
 
       .menu {
@@ -1538,8 +1779,8 @@ footer {
       &.with-arrow {
         &:after {
           bottom: 30px;
-          right: -70px;
-          transform: rotate(-27deg);
+          right: -76px;
+          transform: rotate(0);
         }
       }
     }
@@ -1610,10 +1851,6 @@ footer {
         .slick-next {
           right: 38%;
         }
-      }
-
-      .round {
-        margin: 0 0 24px;
       }
     }
 
@@ -1716,6 +1953,7 @@ footer {
           .btn-effect.orange {
             &.with-arrow {
               margin-bottom: 18px;
+              padding: 12px 14px;
 
               &:after {
                 left: -70px;
@@ -1840,6 +2078,29 @@ footer {
     }
   }
 
+  .p-55 {
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+  }
+
+  .pl-20 {
+    padding-left: 20px !important;
+  }
+
+  .pr-20 {
+    padding-right: 20px !important;
+  }
+
+  .blog .masonry .item {
+    &:nth-child(2) {
+      padding-right: 8px;
+    }
+
+    &:first-child {
+      padding-right: 8px;
+    }
+  }
+
   #new-site, .default-modal {
     &.modal {
       .block {
@@ -1852,6 +2113,12 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+  .who-am-i, .advantage {
+    .row {
+      padding: 0 !important;
+    }
+  }
+
   .login {
     .right-side {
       padding-right: 15px;

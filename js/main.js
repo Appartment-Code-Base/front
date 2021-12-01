@@ -137,12 +137,24 @@ $(document).ready(function () {
     $(this).closest('table').find('td input:checkbox').prop('checked', this.checked);
   });
 
-  $('.datepicker').datepicker({
-    autoclose: true,
-    format: 'dd.mm.yyyy'
+  if ($('.datepicker').length > 0) {
+    $('.datepicker').datepicker({
+      autoclose: true,
+      format: 'dd.mm.yyyy'
+    });
+  }
+
+  $(".scrollTo").on('click', function(e) {
+    e.preventDefault();
+    var target = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: ($(target).offset().top)
+    }, 1000);
   });
 
-  $('.add-new-tr').click(function (){
+  AOS.init();
+
+  $('.add-new-tr').click(function () {
     $(this).parents('.modal-body').find('table tbody').append(
       '<tr>\n' +
       '                            <td>\n' +
@@ -206,11 +218,9 @@ $(document).ready(function () {
       '                            </td>\n' +
       '                        </tr>'
     );
-    $('.datepicker').datepicker({
-      autoclose: true
-    });
+
 
     $('.selectpicker').selectpicker();
-    
+
   })
 });
