@@ -36,6 +36,7 @@ body {
     &.active {
       background: transparent;
       color: #1e2839;
+
       &:hover {
         background-color: rgba(0, 84, 80, .07);
       }
@@ -305,7 +306,7 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 999;
   }
 }
@@ -690,7 +691,8 @@ body {
               width: 8px;
               height: 8px;
               border-radius: 50%;
-              background-color: $green;
+              background: $green;
+              opacity: 1;
               position: absolute;
               left: 20px;
               top: 50%;
@@ -781,6 +783,7 @@ body {
       .form-control {
         padding: 15px 50px 15px 20px;
         height: auto;
+        border: 1px solid #fff !important;
       }
     }
   }

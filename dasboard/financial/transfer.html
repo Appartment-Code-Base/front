@@ -28,20 +28,20 @@
                             <a href="../persons-list.html" class="persons">Kişiler</a>
                         </li>
                         <li>
-                            <a href="../independent-sections.html" class="envelope">Bağımsız Bölümler</a>
+                            <a href="../definitions/independent-sections.html" class="envelope">Bağımsız Bölümler</a>
                         </li>
                         <li>
-                            <a href="../firms.html" class="firms">Firmalar</a>
+                            <a href="firms.html" class="firms">Firmalar</a>
                         </li>
                         <li>
-                            <a href="../debiting.html" class="list">Toplu Borçlandırma</a>
+                            <a href="debiting.html" class="list">Toplu Borçlandırma</a>
                         </li>
                         <li class="nav-item dropdown static-dropdown">
                             <a class="nav-link chart dropdown-toggle active" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Finansal İşlemler</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="transactions.html">Borçlandırmalar</a>
-                                <a class="dropdown-item" href="collections.html">Tahsilatlar</a>
+                                <a class="dropdown-item" href="collections.html">Mədaxil & Məxaric</a>
                                 <a class="dropdown-item" href="expenses.html">Giderlerim</a>
                                 <a class="dropdown-item" href="income.html">Gelirlerim</a>
                                 <a class="dropdown-item active" href="transfer.html">Hesaplar Arası Virman</a>
@@ -228,7 +228,7 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
+                                    <tr data-target=".edit" data-toggle="modal">
                                         <td>
                                             <label class="check-button form-control-label">
                                                 <input type="checkbox">
@@ -266,6 +266,9 @@
                                                             <h4 class="mb-0">SMS Gönder</h4>
                                                         </a>
                                                         <a class="dropdown-item" href="#">
+                                                            <h4 class="mb-0">Düzəliş et</h4>
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
                                                             <h4 class="mb-0 red">Sil</h4>
                                                         </a>
                                                     </div>
@@ -293,13 +296,63 @@
             </div>
         </div>
     </div>
-    <div class="modal fade e-mail edit default-modal new-transfer" tabindex="-1"
+    <div class="modal fade e-mail default-modal new-transfer" tabindex="-1"
          role="dialog"
          aria-labelledby="privacyLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content bg-transparent border-0">
                 <div class="modal-header block bg-white">
                     <h5 class="modal-title">Hesaplar Arası Virman Ekle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block bg-white">
+                    <form action="..." class="d-flex flex-wrap justify-content-between">
+                        <label class="form-control-label date position-relative">
+                            <input type="text" class="form-control inputText datepicker" name="date" placeholder=" ">
+                            <span class="inpt">Tarih</span>
+                        </label>
+                        <label class="form-control-label position-relative money">
+                            <input type="text" class="form-control inputText" name="money" placeholder=" ">
+                            <span class="inpt">Tutar</span>
+                        </label>
+                        <label class="form-control-label position-relative w-100">
+                            <input type="text" class="form-control inputText" name="text" placeholder=" ">
+                            <span class="inpt">Açıklama</span>
+                        </label>
+                        <label class="form-control-label position-relative mb-0">
+                            <select class="selectpicker form-control" title="Borçlandırılacak Hesap Tipi">
+                                <option>No</option>
+                                <option>Yes</option>
+                            </select>
+                        </label>
+                        <label class="form-control-label position-relative mb-0">
+                            <select class="selectpicker form-control" title="Alacaklandırılacak Hesap Tipi">
+                                <option>No</option>
+                                <option>Yes</option>
+                            </select>
+                        </label>
+                        <div class="d-flex justify-content-between w-100 bottom-button-list">
+                            <button type="button" class="btn-effect btn-gray cancel" data-dismiss="modal"
+                                    aria-label="Close">Cancel
+                            </button>
+                            <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">
+                                Kaydet <i
+                                    class="fa fa-angle-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade e-mail default-modal edit" tabindex="-1"
+         role="dialog"
+         aria-labelledby="privacyLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title">Hesaplar Arası Virman Güncelle</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

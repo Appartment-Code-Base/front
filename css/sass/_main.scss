@@ -726,6 +726,12 @@ body {
         padding-right: 5px;
       }
 
+      .edit-modal {
+        .block {
+          padding: 25px !important;
+        }
+      }
+
       .block {
         border-radius: 15px;
         height: auto;
@@ -1140,9 +1146,10 @@ body {
         flex-direction: column;
         justify-content: space-between;
         overflow: hidden;
-         img {
-           transition: ease-in-out .3s;
-         }
+
+        img {
+          transition: ease-in-out .3s;
+        }
 
         &:hover {
           img {
@@ -1501,6 +1508,27 @@ footer {
   }
 }
 
+.modal .block.p-16 {
+  padding: 16px !important;
+}
+
+.collection .modal-dialog {
+  max-width: 1230px;
+
+  .bootstrap-select.form-control, .form-control-label {
+    width: calc(100% / 6) !important;
+    margin-right: 16px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .second-heading {
+    margin: 16px 0;
+    @include toRem(font-size, 16);
+    font-weight: 500;
+  }
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
   .landing {
@@ -1583,6 +1611,7 @@ footer {
             transform: scale(1.2);
           }
         }
+
         &:nth-child(2) {
           &:after {
             content: '';
