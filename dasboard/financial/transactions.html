@@ -267,7 +267,7 @@
                                                         <a class="dropdown-item" href="#">
                                                             <h4 class="mb-0">SMS Gönder</h4>
                                                         </a>
-                                                        <a class="dropdown-item" href="#">
+                                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target=".edit-debit">
                                                             <h4 class="mb-0">Düzəliş et</h4>
                                                         </a>
                                                         <a class="dropdown-item" href="#">
@@ -347,7 +347,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade add-debit e-mai default-modal" tabindex="-1" role="dialog"
+    <div class="modal fade add-debit default-modal" tabindex="-1" role="dialog"
          aria-labelledby="new-siteLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content bg-transparent border-0">
@@ -409,6 +409,101 @@
                             </form>
                         </div>
                         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateFrom" placeholder=" ">
+                                    <span class="inpt">Tazminat Başlangıç Tarihi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Tazminat Uygulama Şekli">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="percent"
+                                           placeholder=" ">
+                                    <span class="inpt">Gecikme Tazminatı Yüzdesi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Tazminat Hesap Tarihi">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <div class="text-right w-100">
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade edit-debit default-modal" tabindex="-1" role="dialog"
+         aria-labelledby="new-siteLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header block bg-white">
+                    <h5 class="modal-title" id="new-siteLabel1">Borçlandırma Güncelle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body block block-tabs bg-white">
+                    <nav>
+                        <div class="nav nav-tabs with-two justify-content-start" id="nav-tab1" role="tablist">
+                            <a class="nav-item nav-link active second-text" id="nav-profile-tab1" data-toggle="tab"
+                               href="#nav-profile1" role="tab" aria-controls="nav-profile1" aria-selected="false">Bilgiler</a>
+                            <a class="nav-item nav-link second-text" id="nav-contact-tab1" data-toggle="tab"
+                               href="#nav-contact1" role="tab" aria-controls="nav-contact1" aria-selected="false">Gecikme
+                                Tazminatı</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent1">
+                        <div class="tab-pane fade show active" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab1">
+                            <form action="..." class="d-flex flex-wrap justify-content-between">
+                                <label class="form-control-label position-relative">
+                                    <input type="text" class="form-control inputText" name="block" placeholder=" ">
+                                    <span class="inpt">Borçlandırma Türü</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Kime">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateFrom" placeholder=" ">
+                                    <span class="inpt">Borçlandırma Tarihi</span>
+                                </label>
+                                <label class="form-control-label date position-relative">
+                                    <input type="text" class="form-control inputText datepicker" name="dateTo" placeholder=" ">
+                                    <span class="inpt">Ödeme Tarihi</span>
+                                </label>
+                                <label class="form-control-label position-relative">
+                                    <select class="selectpicker form-control" title="Borçlandırma Şekli">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                    </select>
+                                </label>
+                                <label class="form-control-label position-relative money">
+                                    <input type="text" class="form-control inputText" name="money" placeholder=" ">
+                                    <span class="inpt">Aidat Tutar</span>
+                                </label>
+                                <label class="form-control-label position-relative w-100">
+                                    <input type="text" class="form-control inputText" name="text" placeholder=" ">
+                                    <span class="inpt">Açıklama</span>
+                                </label>
+                                <div class="text-right w-100">
+                                    <button type="button" class="btn-effect" data-dismiss="modal" aria-label="Close">Kaydet <i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab">
                             <form action="..." class="d-flex flex-wrap justify-content-between">
                                 <label class="form-control-label date position-relative">
                                     <input type="text" class="form-control inputText datepicker" name="dateFrom" placeholder=" ">
